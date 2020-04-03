@@ -1,0 +1,10 @@
+# PCTeX Project File, Version 1.1
+	name: cv_4
+	texformat: latex
+	typesetmode: DVI
+	spellwordlist: american
+cv_4.tex
+cv_4.dvi
+resume.cls
+cv_4.aux
+cv_4.log
