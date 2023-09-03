@@ -1,4 +1,4 @@
-# The CAM Group Website
+# The Wang Research Group Website
 
 This is the website of our academic research group at the Institute for Manufacturing in the Department of Engineering at the University of Cambridge.
 

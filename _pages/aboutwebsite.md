@@ -1,7 +1,7 @@
 ---
-title: "About | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+title: "About | Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College"
 layout: textlay
-excerpt: "About | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+excerpt: "About | Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College"
 sitemap: false
 permalink: /aboutwebsite.html
 ---
