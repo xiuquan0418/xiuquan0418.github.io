@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-We are based at the [Institute for Manufacturing](https://ifm.eng.cam.ac.uk) in the [Department of Mathematics](http://www.eng.cam.ac.uk/) at [Tougaloo College](https://cam.ac.uk) using materials chemistry, additive manufacturing, and machine learning to realize entirely new devices and materials whose structure and composition is optimized from the nano- to the macro-scale to improve interaction with the human body and enhance lives.
+We are based at the School of Natural Science in the Department of Mathematics at [Tougaloo College](https://www.tougaloo.edu) using machine learning and Deep Learning to realize entirely new devices and materials whose structure and composition is optimized from the nano- to the macro-scale to improve interaction with the human body and enhance lives.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
@@ -28,6 +28,18 @@ We are based at the [Institute for Manufacturing](https://ifm.eng.cam.ac.uk) in 
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/printer-fleet.jpg" alt="Slide 2" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/diw.jpg" alt="Slide 3" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/diw.jpg" alt="Slide 3" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/diw.jpg" alt="Slide 3" />
+        </div>
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/diw.jpg" alt="Slide 3" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/diw.jpg" alt="Slide 3" />
