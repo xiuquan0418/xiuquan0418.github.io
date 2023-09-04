@@ -8,9 +8,9 @@ permalink: /publications/
 
 # Publications
 
-## Highlights
+<!-- ## Highlights
 
-<!-- For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.com/citations?user=I8dpTJMAAAAJ&hl=en). -->
+For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.com/citations?user=I8dpTJMAAAAJ&hl=en).
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
@@ -53,7 +53,7 @@ permalink: /publications/
 
 <p> &nbsp; </p>
 
-## Full List
+## Full List -->
 
 {% for publi in site.data.publist %}
 
