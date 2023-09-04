@@ -1,16 +1,16 @@
 ---
-title: "Team | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+title: "Team | Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College"
 layout: gridlay
-excerpt: "Team | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+excerpt: "Team | Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College"
 sitemap: false
 permalink: /team/
 ---
 
 # Group Members
 
-**If you are interested in either a Ph.D. or postdoctoral position please get in touch! There is currently an opening for a postdoc/RA!**
+<!-- **If you are interested in either a Ph.D. or postdoctoral position please get in touch! There is currently an opening for a postdoc/RA!**
 
-## Staff
+## Staff -->
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
