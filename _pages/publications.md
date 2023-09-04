@@ -1,7 +1,7 @@
 ---
-title: "Publications | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+title: "Publications | Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College"
 layout: gridlay
-excerpt: "Publications | Complex Additive Materials Group | Department of Engineering at the University of Cambridge"
+excerpt: "Publications | Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College"
 sitemap: false
 permalink: /publications/
 ---
@@ -10,7 +10,7 @@ permalink: /publications/
 
 ## Highlights
 
-For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.com/citations?user=I8dpTJMAAAAJ&hl=en).
+<!-- For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.com/citations?user=I8dpTJMAAAAJ&hl=en). -->
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.publist %}
