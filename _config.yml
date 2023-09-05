@@ -8,16 +8,13 @@
 # Site settings
 title: Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College
 tagline: >
-  Researching materials
-  chemistry, additive manufacturing, and machine learning
-  to realize entirely new devices and materials to improve
-  interaction with the human body and enhance lives.
+  Machine learning.
 email: xwang@tougaloo.edu
 description: > # this means to ignore newlines until "baseurl:"
   Wang Research Group is based at the
-  Institute for Manufacturing in the Department of
-  Engineering at the University of Cambridge.
-  The group researches materials chemistry, additive manufacturing,
+  School of Natural Science in the Department of
+  Mathematics and Computer Science at Tougaloo College.
+  The group researches Nanopore Long-read Sequence
   and machine learning to realize entirely new devices
   and materials whose structure and composition is
   optimized from the nano- to the macro-scale, to improve

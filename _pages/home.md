@@ -60,15 +60,4 @@ We are based at the School of Natural Science in the Department of Mathematics a
 **Photo credits:** © Felice Frankel, research scientist, Department of Chemical Engineering at MIT, Douglas Brion, PhD student, Department of Engineering at University of Cambridge
 
 
-The group is working on:
-
-**Digitally tailored medical devices**  
-Producing wearable and implantable medical devices that better mimic and integrate with patients/wearers.
-
-**Materials for additive manufacturing**  
-Developing new materials whose structure and composition enable unique functionality.
-
-**Learning 3D printers**  
-Understanding how machine learning approaches can improve the capabilities of 3D printers.
-
 <br>
