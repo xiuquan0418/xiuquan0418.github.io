@@ -14,7 +14,7 @@ Here are some themes and techniques that we currently work on:
 
 <!-- ![]({{ site.url }}{{ site.baseurl }}/images/respic/venn_diagram.jpg){: style="width: 300px; float: right; border: 10px"} -->
 
-**Nanopore Sequence Based RNA Velocity Estimation**  
+**RNA Velocity Estimation**  
 We will develop a computational toolbox that accurately estimates RNA velocity from Nanopore long-read RNA sequencing data. Leveraging the unique advantages of long-read sequencing, including rich signal-level information, our toolbox will model cell state dynamics based on RNA velocity, spliced/unspliced RNA abundances, latent times, and transcriptional states. The performance of our tool will be rigorously validated by comparing it to existing methods.
 
 **Transformer-Based Detection of DNA Methylation in Nanopore Sequencing**  
