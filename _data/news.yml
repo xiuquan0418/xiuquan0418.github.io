@@ -1,7 +1,5 @@
-- date: Oct. 3, 2023
-  headline: "Join <b>Dr. Lianna Li</b> for a workshop on <b>DNA Sequence</b>. Explore genetics and learn from an expert in the field."
-  headline: "Date: Oct. 3, 2023, from 9:00 am - 4:30 pm"
-  headline: "Location: K-105"
-
-- date: Sep. 6, 2023
-  headline: "Join <b>Dwight Ross</b> and <b>Dania M Zein</b> as they discuss <b>Gradient Descent techniques</b> in machine learning. Don't miss this enlightening presentation!"
+- date: Sep. 5, 2023
+  headline: "Join <b>Dr. Lianna Li</b> for a workshop on <b>DNA Sequence</b>. Explore genetics and learn from an expert in the field. <b>Date:</b>  Oct. 3, 2023, <b>Time:</b> 11:00 - 11:50 am. <b>Location:</b> K-105"
+  
+- date: Sep. 1, 2023
+  headline: "Join <b>Dwight Ross</b> and <b>Dania M Zein</b> as they discuss <b>Gradient Descent techniques</b> in machine learning. Don't miss this enlightening presentation! <b>Date:</b>  Sep. 6, 2023, <b>Time:</b> 11:00 - 11:50 am. <b>Location:</b> K-105"
