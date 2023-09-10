@@ -6,17 +6,17 @@ sitemap: false
 permalink: /education/
 ---
 
-# Publications
+# Teaching and Education
 
 ## Group highlights
 
 **At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).**
 
 {% assign number_printed = 0 %}
-{% for publi in site.data.publist %}
+{% for edu in site.data.educaton %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
-{% if publi.highlight == 1 %}
+{% if edu.highlight == 1 %}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -24,13 +24,13 @@ permalink: /education/
 
 <div class="col-sm-6 clearfix">
  <div class="well">
-  <pubtit>{{ publi.title }}</pubtit>
+  <pubtit>{{ edu.title }}</pubtit>
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
-  <p>{{ publi.description }}</p>
-  <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
-  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-  <p> {{ publi.news2 }}</p>
+  <p>{{ edu.description }}</p>
+  <p><em>{{ edu.authors }}</em></p>
+  <p><strong><a href="{{ publi.link.url }}">{{ edu.link.display }}</a></strong></p>
+  <p class="text-danger"><strong> {{ edu.news1 }}</strong></p>
+  <p> {{ edu.news2 }}</p>
  </div>
 </div>
 
