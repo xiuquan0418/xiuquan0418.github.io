@@ -8,12 +8,8 @@ permalink: /education/
 
 # Teaching and Education
 
-## Group highlights
-
-**At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).**
-
 {% assign number_printed = 0 %}
-{% for edu in site.data.educaton %}
+{% for edu in site.data.education %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if edu.highlight == 1 %}
@@ -28,7 +24,7 @@ permalink: /education/
   <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ edu.description }}</p>
   <p><em>{{ edu.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ edu.link.display }}</a></strong></p>
+  <p><strong><a href="{{ edu.link.url }}">{{ edu.link.display }}</a></strong></p>
   <p class="text-danger"><strong> {{ edu.news1 }}</strong></p>
   <p> {{ edu.news2 }}</p>
  </div>
