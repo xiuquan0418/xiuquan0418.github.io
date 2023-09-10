@@ -8,7 +8,7 @@ permalink: /education/
 
 # Teaching and Education
 
-## We love provide educational opportunities to trainees!
+We love provide educational opportunities to trainees!
 
 {% assign number_printed = 0 %}
 {% for edu in site.data.education %}
