@@ -20,7 +20,7 @@ permalink: /education/
 
 <div class="col-sm-6 clearfix">
  <div class="well">
-  <pubtit>{{ edu.title }}</pubtit>
+  <h3>{{ edu.title }}</h3> <!-- Updated from <pubtit> -->
   <img src="{{ site.url }}{{ site.baseurl }}/images/respic/{{ edu.image }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ edu.description }}</p>
   <p><em>{{ edu.authors }}</em></p>
