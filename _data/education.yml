@@ -9,7 +9,7 @@
 
 - title: "Bioinformatics Training"
   image: HBC_Bioinfo.png
-  description: The training team at the Harvard Chan Bioinformatics Core provides training to help students become comfortable with using bioinformatics tools to analyse high-throughput sequencing (HTS) data.
+  description: The training team provides training to help students become comfortable with using bioinformatics tools to analyse high-throughput sequencing (HTS) data.
   authors: the Harvard Chan Bioinformatics Core
   link:
     url: https://hbctraining.github.io/main/#basic-data-skills
