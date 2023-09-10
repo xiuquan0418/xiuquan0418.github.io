@@ -1,11 +1,10 @@
 ---
-title: "Allan Lab - Publications"
+title: "Publications | Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "Publications | Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College"
 sitemap: false
-permalink: /publications/
+permalink: /education/
 ---
-
 
 # Publications
 
