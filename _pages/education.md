@@ -1,7 +1,7 @@
 ---
-title: "Publications | Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College"
+title: "Education | Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College"
 layout: gridlay
-excerpt: "Publications | Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College"
+excerpt: "Education | Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College"
 sitemap: false
 permalink: /education/
 ---

@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-We are based at the School of Natural Science in the Department of Mathematics at [Tougaloo College](https://www.tougaloo.edu) using machine learning and Deep Learning to realize entirely new devices and materials whose structure and composition is optimized from the nano- to the macro-scale to improve interaction with the human body and enhance lives.
+We are based at the Department of Mathematics and Computer Science, within the School of Natural Science at [Tougaloo College](https://www.tougaloo.edu). Our team harnesses advanced machine learning, Deep Learning and mathematical techniques to derive crucial biological insights from Nanopore long-sequencing data. We aim to transform complex sequence data into understandable biological narratives, uncovering the intricate dynamics of cellular processes and genetic structures.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
@@ -56,8 +56,3 @@ We are based at the School of Natural Science in the Department of Mathematics a
     <span class="sr-only">Next</span>
   </a>
 </div>
-
-**Photo credits:** © Felice Frankel, research scientist, Department of Chemical Engineering at MIT, Douglas Brion, PhD student, Department of Engineering at University of Cambridge
-
-
-<br>
