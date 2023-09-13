@@ -27,7 +27,7 @@ We will investigate the relationship between RNA velocity trajectories and DNA m
 {% for project in site.data.projects %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
-{% if edu.highlight == 1 %}
+{% if project.highlight == 1 %}
 
 {% if even_odd == 0 %}
 <div class="row">
