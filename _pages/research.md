@@ -24,7 +24,7 @@ We will develop a transformer-based machine learning tool for the direct detecti
 We will investigate the relationship between RNA velocity trajectories and DNA methylation patterns across diverse biological systems and diseases. Our computational tools will integrate RNA velocity and DNA methylation data to explore the interplay between these two regulatory mechanisms across different cell types and disease conditions.
 
 {% assign number_printed = 0 %}
-{% for edu in site.data.education %}
+{% for project in site.data.projects %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if edu.highlight == 1 %}
@@ -35,13 +35,13 @@ We will investigate the relationship between RNA velocity trajectories and DNA m
 
 <div class="col-sm-6 clearfix">
  <div class="well">
-  <h3>{{ edu.title }}</h3> <!-- Updated from <pubtit> -->
-  <img src="{{ site.url }}{{ site.baseurl }}/images/respic/{{ edu.image }}" class="img-responsive" width="33%" style="float: left" />
-  <p>{{ edu.description }}</p>
-  <p><em>{{ edu.authors }}</em></p>
-  <p><strong><a href="{{ edu.link.url }}">{{ edu.link.display }}</a></strong></p>
-  <p class="text-danger"><strong> {{ edu.news1 }}</strong></p>
-  <p> {{ edu.news2 }}</p>
+  <h3>{{ project.title }}</h3> <!-- Updated from <pubtit> -->
+  <img src="{{ site.url }}{{ site.baseurl }}/images/respic/{{ project.image }}" class="img-responsive" width="33%" style="float: left" />
+  <p>{{ project.description }}</p>
+  <p><em>{{ project.authors }}</em></p>
+  <p><strong><a href="{{ project.link.url }}">{{ project.link.display }}</a></strong></p>
+  <p class="text-danger"><strong> {{ project.news1 }}</strong></p>
+  <p> {{ project.news2 }}</p>
  </div>
 </div>
 
