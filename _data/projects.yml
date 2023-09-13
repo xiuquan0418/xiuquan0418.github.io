@@ -1,18 +1,18 @@
-- title: "Project 1: Detection of DNA Methylation"
+- title: "Andrew Ng's Machine Learning"
   image: ML_Andrew.png
-  description: We will develop a transformer-based machine learning tool for the direct detection of DNA methylation and evaluate its performance in diverse biological systems and diseases.
-  authors: Xiuquan Wang
+  description: Master fundamental AI concepts and develop practical machine learning skills in the beginner-friendly, 3-course program by AI visionary Andrew Ng
+  authors: Andrew Ng
   link:
-    url: https://xiuquan0418.github.io/research/
-    display: Github Repository
+    url: https://www.coursera.org/specializations/machine-learning-introduction
+    display: Machine Learning Specialization
   highlight: 1
 
-- title: "RNA Velocity Estimation"
+- title: "Bioinformatics Training"
   image: HBC_Bioinfo.png
-  description: We will develop a computational toolbox that accurately estimates RNA velocity from Nanopore long-read RNA sequencing data.
-  authors: Xiuquan Wang
+  description: The team provides training to help students become comfortable with using bioinformatics tools to analyse high-throughput sequencing (HTS) data.
+  authors: the Harvard Chan Bioinformatics Core
   link:
-    url: https://xiuquan0418.github.io/research/
-    display: Github Repository
+    url: https://hbctraining.github.io/main/#basic-data-skills
+    display: HBC Training Program
   highlight: 1
 
