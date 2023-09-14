@@ -22,7 +22,7 @@ We are passionate about providing educational opportunities to our trainees!
 
 <div class="col-sm-6 clearfix">
  <div class="well">
-  <pubtit>{{ publi.title }}</pubtit>
+  <pubtit>{{ edu.title }}</pubtit>
   <img src="{{ site.url }}{{ site.baseurl }}/images/respic/{{ edu.image }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ edu.description }}</p>
   <p><em>{{ edu.authors }}</em></p>
