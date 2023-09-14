@@ -11,14 +11,12 @@ tagline: >
   Machine learning. 
 email: xwang@tougaloo.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Wang Research Group is based at the
-  School of Natural Science in the Department of
-  Mathematics and Computer Science at Tougaloo College.
-  The group researches Nanopore Long-read Sequence
-  and machine learning to realize entirely new devices
-  and materials whose structure and composition is
-  optimized from the nano- to the macro-scale, to improve
-  interaction with the human body and enhance lives.
+  Wang Research Group are based at the Department of Mathematics 
+  and Computer Science, within the School of Natural Science at Tougaloo College
+  Our team harnesses advanced machine learning and mathematical techniques 
+  to derive crucial biological insights from Nanopore long-sequencing data. 
+  We aim to transform complex sequence data into understandable biological narratives, 
+  uncovering the intricate dynamics of cellular processes and genetic structures.
 baseurl: ""
 url: "https://xiuquan0418.github.io"
 lang: en_GB

@@ -1,6 +1,6 @@
 ---
 title: "Research | Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College"
-layout: textlay
+layout: gridlay
 excerpt: "Research | Wang Research Group | Department of Mathematics and Computer Science at Tougaloo College"
 sitemap: false
 permalink: /research/
