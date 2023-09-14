@@ -35,10 +35,10 @@ We will investigate the relationship between RNA velocity trajectories and DNA m
 
 <div class="col-sm-6 clearfix">
  <div class="well">
-  <h3>{{ project.title }}</h3> <!-- Updated from <pubtit> -->
+  <h5>{{ project.title }}</h5> <!-- Updated from <pubtit> -->
   <img src="{{ site.url }}{{ site.baseurl }}/images/respic/{{ project.image }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ project.description }}</p>
-  <p><em>{{ project.authors }}</em></p>
+  <!-- <p><em>{{ project.authors }}</em></p> -->
   <p><strong><a href="{{ project.link.url }}">{{ project.link.display }}</a></strong></p>
   <p class="text-danger"><strong> {{ project.news1 }}</strong></p>
   <p> {{ project.news2 }}</p>
