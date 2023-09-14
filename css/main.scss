@@ -91,3 +91,13 @@ firstp {
     margin-right: 30px;
 }
 
+.equal-height-row {
+    display: table;
+    width: 100%;
+}
+
+.equal-height-col {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
