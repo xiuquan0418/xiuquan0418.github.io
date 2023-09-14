@@ -30,10 +30,10 @@ We will investigate the relationship between RNA velocity trajectories and DNA m
 {% if project.highlight == 1 %}
 
 {% if even_odd == 0 %}
-<div class="row equal-height-row">
+<div class="row">
 {% endif %}
 
-<div class="col-sm-6 equal-height-col">
+<div class="col-sm-6 clearfix">
  <div class="well">
   <h3>{{ project.title }}</h3> <!-- Updated from <pubtit> -->
   <img src="{{ site.url }}{{ site.baseurl }}/images/respic/{{ project.image }}" class="img-responsive" width="33%" style="float: left" />
