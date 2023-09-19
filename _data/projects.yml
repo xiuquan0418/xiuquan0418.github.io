@@ -15,7 +15,7 @@
   highlight: 1
 
 - title: "Project 3: RNA Velocity and DNA Methylation: Integrated Analysis"
-  image: mathomics.png
+  image: RNA_Velocity01.png
   description: We will investigate the relationship between RNA velocity trajectories and DNA methylation patterns across diverse biological systems and diseases. Our computational tools will integrate RNA velocity and DNA methylation data to explore the interplay between these two regulatory mechanisms across different cell types and disease conditions.
   link:
     url: https://xiuquan0418.github.io/research/
