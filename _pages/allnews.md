@@ -8,7 +8,7 @@ permalink: /allnews.html
 
 # News
 
-{% for article in site.data.news %}
+{% for article in site.data.news limit:2 %}
 
 <p>{{ article.date }} <br>
 <em>{{ article.headline }}</em></p>
