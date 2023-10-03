@@ -28,6 +28,7 @@ permalink: /team/
   <i>{{ member.info }}</i>
   <br>
   <i>email: <{{ member.email }}></i>
+  <br>
   <i>{{ member.bio }}</i>
 </div>
 
