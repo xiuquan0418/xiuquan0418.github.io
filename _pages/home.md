@@ -61,7 +61,7 @@ We are based at the Department of Mathematics and Computer Science, within the S
 
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/TC_Logo.png" style="width: 210px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/NSF_Logo.png" style="width: 110px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/WGLab_Logo.png" style="width: 120px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/TC_Logo.png" style="width: 70px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/NSF_Logo.png" style="width: 70px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/WGLab_Logo.png" style="width: 70px">
 </figure>
