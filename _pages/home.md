@@ -59,6 +59,8 @@ We are based at the Department of Mathematics and Computer Science, within the S
   </a>
 </div>
 
+**Photo credits:** © RNA Velocities derived from the dynamical genes in neurogenesis
+
 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/TC_Logo.png" style="width: 60px">
