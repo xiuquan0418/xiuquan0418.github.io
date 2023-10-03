@@ -27,7 +27,7 @@ permalink: /team/
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i>
   <br>
-  <i>email: <{{ member.email }}></i>
+  <i>email: <{{ member.email }}></i> <br>
   <i><{{ member.bio }}></i>
   <ul style="overflow: hidden">
 
