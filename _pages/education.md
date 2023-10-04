@@ -51,4 +51,5 @@ We are passionate about providing educational opportunities to our trainees!
 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dania_Zein.jpg" style="width: 350px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dwight_Ross.jpg" style="width: 350px">
 </figure>
