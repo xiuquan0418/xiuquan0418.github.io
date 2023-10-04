@@ -48,18 +48,18 @@ We are passionate about providing educational opportunities to our trainees!
 </div>
 {% endif %}
 
-<p> &nbsp; </p>
+<!-- <p> &nbsp; </p> -->
 
 ## Student Achievements: 
-### Student Presentations
-<li> Machine Learning Models to test Anomaly Detection (poster)
-Dwight Ross 
+### Presentations
+<li> Machine Learning Models for Anomaly Detection (poster) <br>
+Presenter: Dwight Ross 
  </li>
 <li> Predicting COVID-19 Cases Using Deep Neural Networks Based on Trends and Impact Survey Data <br>
-Dania Zein
+Presenter: Dania Zein
  </li>
 <li> COVID-19 Detection from Chest X-rays with CNN-Based Approach <br>
-Dwight Ross
+Presenter: Dwight Ross
  </li>
 
 ### Coursera Machine Learning Certifications
