@@ -10,6 +10,8 @@ permalink: /education/
 
 We are passionate about providing educational opportunities to our trainees!
 
+## Recommended Courses
+
 {% assign number_printed = 0 %}
 {% for edu in site.data.education %}
 
@@ -48,7 +50,19 @@ We are passionate about providing educational opportunities to our trainees!
 
 <p> &nbsp; </p>
 
+## Student Achievements: 
+### Student Presentations
+<li> Machine Learning Models to test Anomaly Detection (poster)
+Dwight Ross 
+ </li>
+<li> Predicting COVID-19 Cases Using Deep Neural Networks Based on Trends and Impact Survey Data <br>
+Dania Zein
+ </li>
+<li> COVID-19 Detection from Chest X-rays with CNN-Based Approach <br>
+Dwight Ross
+ </li>
 
+### Coursera Machine Learning Certifications
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dania_Zein.jpg" style="width: 350px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dwight_Ross.jpg" style="width: 350px">
