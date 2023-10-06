@@ -47,7 +47,13 @@ We are based at the Department of Mathematics and Computer Science, within the S
 
 
 <figure class="fourth">
+  <a href="https://www.tougaloo.edu">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/TC_Logo.png" style="width: 60px">
+  </a>
+  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2300445&HistoricalAwards=false">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/NSF_Logo.png" style="width: 50px">
+  </a>
+  <a href="https://github.com/WGLab">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/WGLab_Logo.png" style="width: 50px">
+  </a>
 </figure>
