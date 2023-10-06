@@ -51,7 +51,7 @@ We are passionate about providing educational opportunities to our trainees!
 <!-- <p> &nbsp; </p> -->
 
 ## Student Achievements: 
-### Presentations
+### 21th Annual Kincheloe Research Symposium Presentations ([Past online Symposium](https://app.virtualpostersession.org/e/19979cf1817e50414ff3913db93f1e31))
 <li> Machine Learning Models for Anomaly Detection (poster) <br>
 Presenter: Dwight Ross 
  </li>
