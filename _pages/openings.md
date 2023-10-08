@@ -6,44 +6,69 @@ sitemap: false
 permalink: /Openings.html
 ---
 
-# NSF HBCU UP RIA Undergraduate Research Fellowship - Guidelines, Expectations, and Objectives
+# **NSF HBCU UP RIA Undergraduate Research Fellowship**
+## Guidelines, Expectations, and Objectives
 
-This website is powered by [Jekyll](https://jekyllrb.com) and uses some [Bootstrap](http://www.getbootstrap.com) and [Bootswatch](http://www.bootswatch.com). We tried to make it simple yet adaptable, so that it is easy for you to re-use it for your purpose.
+---
 
-### Getting started
+### **Introduction**
+The NSF HBCU UP RIA Undergraduate Research Fellowship is designed to promote and support research endeavors of undergraduate students. This initiative strives to foster a research culture and enrich the academic experience by involving students in meaningful research projects.
 
-All pages are written in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) for easy editing, and [Jekyll](https://jekyllrb.com) uses Liquid for the data-driven pages. The publicaion list, news items, and group members are stored as `.yml` data sheets (plain text) in the `_data folder`, so that one can update the website easily. The pages are in the `_pages` folder. Updating and maintaining is easy using [Github](http://www.github.com) (not worldpress-easy, but there are other advantages (see e.g. [this](https://www.taniarascia.com/make-a-static-website-with-jekyll/), or [this](http://www.webdesignerdepot.com/2015/11/jekyll-against-the-rest-of-the-world/)). [Jekyll](https://jekyllrb.com) takes all the markdown and data files, and creates beautiful `html` files in the `_site` folder.
+---
 
-If you never used [Jekyll](https://jekyllrb.com), read the [wikipedia article](<https://en.wikipedia.org/wiki/Jekyll_(software)>) article and check out [their website](https://jekyllrb.com). Same for [Github](http://www.github.com), which will host your first website draft.
+### **Guidelines**
 
-Create and open a github account, go to [our repository](https://github.com/allanlab/allanlab), and click 'fork'. This is now your copy of the website, and you can change and adapt it as you want. You don't have to link to us or mention us (but of course we appreciate it). Then change the name of the repository to "your*username" and the name of the branch to "gh-pages". Your website is now automatically published under \_your_username.github.io/your_username/*. Except that it probably still looks like our website.
+1. **Eligibility**
+   - The award is open to all undergraduate students currently enrolled in [Your Institution's Name].
+   - Priority will be given to those in their junior or senior year with a strong academic standing.
 
-To modify the webpage, you can either do everything on on github.com (go to a file, click "edit", then "commit", "push"), or install [Jekyll](https://jekyllrb.com) on your computer and play with your local copy that you sync with the branch on github.com. The former is much easier in the beginning, but a bit less convenient once you start rewriting everythint. To get it to work on your computer (and to learn a bit more about [Jekyll](https://jekyllrb.com)), [here](https://www.taniarascia.com/make-a-static-website-with-jekyll/) and [here](https://scotch.io/tutorials/getting-started-with-jekyll-plus-a-free-bootstrap-3-starter-theme) are tutorials on how to use it and how set it up locally. Also, consider using the [Github desktop app](http://www.desktop.github.com), I found it helpful.
+2. **Application Process**
+   - Submission of a research proposal (max. 2 pages) detailing the aims, methodology, and expected outcomes of the research.
+   - Letter of recommendation from a faculty member familiar with the student's academic performance.
+   - Updated academic transcript.
 
-### Customization
+3. **Duration**
+   - The fellowship lasts for one academic year, starting from the award date.
 
-Now let's make this _your_ website.
+4. **Funding**
+   - A stipend will be provided to the selected recipients, intended to cover research-related expenses and a modest honorarium for their efforts.
 
-First, go to the `news.ylm`, `publist.ylm`, and `team.ylm` files in the `_data` folder and insert your own data into the data fields. Watch out: [Jekyll](https://jekyllrb.com) is quite strict about extra or missing spaces etc. Adhere to the format. In the beginning, test each change: commit, push, and check the published website.
+---
 
-For publications, you can add a "1" in the highlight field, then it will be featured prominently. You can add important news items (red, "news1"), and less important news items (blue, "news2").
+### **Expectations**
 
-For the news items, just keep adding them. The first 10 will be displayed on the 'home' page.
+1. **Commitment**
+   - Selected students should commit a predefined number of hours per week for their research project.
 
-For the `team.ylm` file
+2. **Mentorship**
+   - Each awardee is expected to work under the guidance of a faculty mentor.
+   - Regular meetings with the mentor are advised.
 
-Next, change the content of all files in the `_pages` folder. To change the title in the homepage, go to `homelay.html` in the `_layout` folder.
+3. **Reporting**
+   - A midterm progress report and a final report, summarizing the findings and achievements during the fellowship period, must be submitted.
 
-Lastly, change the footer and perhaps header appropriately (in `_include`).
+4. **Presentation**
+   - Recipients may be asked to present their research findings at an annual research symposium or a similar platform.
 
-You might also want to change the style or theme. I imported style files (in sass) from Bootstrap/Bootwatch, you can replace them with your own (in the `_sass directory`). For small changes, just work on the override stuff in the `main.sass` file in the `CSS` folder. Or change some variables in the `_variables.sass` file, like the background color etc.
+5. **Publication**
+   - Awardees are encouraged to aim for publication, whether in internal university journals, conferences, or external scholarly journals.
 
-As said, [Jekyll](https://jekyllrb.com) takes all the markdown and data files, and creates beautiful `html` files in the `_site` folder.In the end, either upload these files to your server, or buy yourself a domain and check the instructions on github on how to host it there.
+---
 
-### Copyright / credit
+### **Objectives**
 
-You can use this template as you please. You don't have to link to us or mention us (but of course we appreciate it). We also welcome it if you send us an email with a link to your website, perhaps we'll publish a list here at some point.
+1. **Skill Development**
+   - Enhance the student's skills in research planning, data collection, analysis, and presentation.
 
-Comments welcome.
+2. **In-depth Understanding**
+   - Provide students an opportunity to delve deeply into a specific area of interest, fostering a deeper understanding and appreciation of the subject.
 
-Code released under the MIT License.
+3. **Mentorship**
+   - Build a mentor-mentee relationship between faculty and students, facilitating academic growth and career guidance.
+
+4. **Publication and Recognition**
+   - Foster an environment where student research is recognized, appreciated, and potentially published, boosting the academic profile of both the student and the institution.
+
+---
+
+All fellowship recipients must adhere to the institution's code of conduct, academic integrity policies,
