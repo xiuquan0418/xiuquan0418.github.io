@@ -45,6 +45,8 @@ We are based at the Department of Mathematics and Computer Science, within the S
 
 **Photo credits:** © RNA Velocities derived from the dynamical genes in neurogenesis
 
+Our group is currently offering multiple NSF HBCU UP RIA Research Fellowships, exclusively for STEM undergraduates at TC. 
+<h4><a href="{{ site.url }}{{ site.baseurl }}/Openings.html">(more info)</a></h4>
 
 <figure class="fourth">
   <a href="https://www.tougaloo.edu">
