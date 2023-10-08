@@ -11,7 +11,6 @@ permalink: /Openings.html
 
 ---
 
-### **Introduction**
 The NSF HBCU UP RIA Undergraduate Research Fellowship is designed to promote and support research endeavors of undergraduate students. This initiative strives to foster a research culture and enrich the academic experience by involving students in meaningful research projects.
 
 ---
@@ -19,8 +18,8 @@ The NSF HBCU UP RIA Undergraduate Research Fellowship is designed to promote and
 ### **Guidelines**
 
 1. **Eligibility**
-   - The award is open to all undergraduate students currently enrolled in [Your Institution's Name].
-   - Priority will be given to those in their junior or senior year with a strong academic standing.
+   - The award is open to all undergraduate students currently enrolled in Tougaloo College.
+   - Priority will be given to those in their sophomore or junior year with a strong academic standing.
 
 2. **Application Process**
    - Submission of a research proposal (max. 2 pages) detailing the aims, methodology, and expected outcomes of the research.
