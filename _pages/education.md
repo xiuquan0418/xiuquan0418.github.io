@@ -60,12 +60,12 @@ Presenter: Dwight Ross
 Presenter: Dania Zein (3rd place)
  </li>
 <li> COVID-19 Detection from Chest X-rays with CNN-Based Approach <br>
-Presenter: Dwight Ross (2nd placeS)
+Presenter: Dwight Ross (2nd place)
  </li>
 
 ### Certifications
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dania_Zein.jpg" style="width: 280px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dwight_Ross.jpg" style="width: 280px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/Award_Certificate_Dania_Zein.jpg" style="width: 300px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dania_Zein.jpg" style="width: 300px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dwight_Ross.jpg" style="width: 300px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/Award_Certificate_Dania_Zein.jpg" style="width: 330px">
 </figure>
