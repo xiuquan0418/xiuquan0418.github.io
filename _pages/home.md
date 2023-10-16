@@ -8,7 +8,7 @@ permalink: /
 
 We are based at the Department of Mathematics and Computer Science, within the School of Natural Science at [Tougaloo College](https://www.tougaloo.edu). Our team harnesses advanced machine learning and mathematical techniques to derive crucial biological insights from Nanopore long-sequencing data. We aim to transform complex sequence data into understandable biological narratives, uncovering the intricate dynamics of cellular processes and genetic structures.
 
-**Keywords:** Machine/Deep Learning, computational biology, Bioinformatics, Genomics, High-throughput Sequencing Analysis.
+**Keywords:** Machine/Deep Learning, computational biology, Bioinformatics, Genomics, High-throughput Sequencing Analysis, Nanopore.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
     <!-- Menu -->
