@@ -63,8 +63,22 @@ Presenter: Dania Zein (3rd place)
 Presenter: Dwight Ross (2nd place)
  </li>
 
+### 88th Annual Mississippi Academy of Sciences <br> 
+<li> Exploring COVID-19's Impact: Analyzing Trends in CTIS and Preprocessing COPE for Future Insights (poster) <br>
+Presenter: Dania Zein <br>
+Best Undergraduate Poster Award in the Division Math, Statistics and Computer Science; <br>
+Honoring Excellence in Science in Mississippi (Top 10% of all undergraduate students (300+) presenting at MAS), Being inducted as student Fellow
+ </li>
+<li> COVID-19 Detection from Chest X-rays with Transformer-Based Approach (poster) <br>
+Presenter: Dwight Ross <br>
+Honoring Excellence in Science in Mississippi (Top 10% of all undergraduate students (300+) presenting at MAS), Being inducted as student Fellow
+ </li>
+
+
 ### Certifications
 <figure class="fourth">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/Best_Poster_Award_Certificate_Dania_Zein_MAS.jpg" style="width: 290px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/Honoring_Excellence_Poster_Award_Certificate_Dania_Zein_MAS.jpg" style="width: 290px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/Award_Certificate_Dwight_Ross.jpg" style="width: 290px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/Award_Certificate_Dania_Zein.jpg" style="width: 290px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/Certificates/ML_Certificate_Dania_Zein.jpg" style="width: 290px">
