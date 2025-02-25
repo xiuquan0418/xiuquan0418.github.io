@@ -1,0 +1,170 @@
+{
+  "basics": {
+    "name": "Gennady Gorin",
+    "label": "Computational method development for omics technologies",
+    "image": "",
+    "email": "gennady.gorin@gmail.com",
+    // "phone": "(912) 123-4567",
+    "url": "https://gennadygorin.github.io/",
+    "summary": "A  postdoctoral scholar at the Pachter Laboratory at Caltech, building theory, tools, and methods for genomics and biophysics.",
+    "location": {
+      // "address": "2712 Broadway St",
+      // "postalCode": "CA 94115",
+      "city": "Pasadena",
+      // "countryCode": "US",
+      "region": "California"
+    },
+    // "profiles": [
+    //   {
+    //     "network": "Twitter",
+    //     "username": "AlbertEinstein",
+    //     "url": "https://twitter.com/AlbertEinstein"
+    //   }
+    // ]
+  },
+  "work": [
+    {
+      "name": "Celsius Therapeutics",
+      "position": "Celsius Therapeutics",
+      "url": "https://celsiustx.com/",
+      "startDate": "2022-06",
+      "endDate": "2022-08",
+      "summary": "Pharmaceutical startup leveraging transcriptomic analyses to develop therapeutics",
+      "highlights": [
+        "Designed methods to decipher transcriptional mechanisms of disease states for drug discovery",
+        "Integrated analyses into the company’s cloud computational pipeline for large patient datasets"
+      ]
+    },
+    {
+      "name": "Golding Laboratory, Baylor College of Medicine",
+      "position": "Research Intern",
+      "url": "https://bacteriophysics.web.illinois.edu/",
+      "startDate": "2017-02",
+      "endDate": "2018-09",
+      "summary": "Academic laboratory synthesizing experiments and biophysics to decipher cell biology",
+      "highlights": [
+        "Designed stochastic simulations and statistical analyses of microbial gene regulation",
+        "Organized a collaboration at the Xu Laboratory, Shanghai Jiao Tong University, to develop algorithms"
+      ]
+    },
+    {
+      "name": "Douglas Laboratory, Indiana University",
+      "position": "NSF Research Experience for Undergraduates Intern",
+      "url": "https://douglas.lab.indiana.edu/",
+      "startDate": "2016-05",
+      "endDate": "2016-07",
+      "summary": "Academic laboratory developing virus-like particles as a biotechnology platform",
+      "highlights": [
+        "Designed, constructed, and modeled a reactor to investigate flow kinetics of encapsulated enzymes"
+      ]
+    },
+    {
+      "name": "Lu Laboratory, University of Science and Technology of China",
+      "position": "Future Chemists International Summer Camp Participant",
+      "url": "http://staff.ustc.edu.cn/~junling/",
+      "startDate": "2015-06",
+      "endDate": "2015-07",
+      "summary": "Undergraduate-level research and cultural immersion program",
+      "highlights": [
+        "Synthesized novel palladium nanoparticles and monitored their catalytic activity by gas chromatography"
+      ]
+    },
+    {
+      "name": "Zubarev Laboratory, Rice University",
+      "position": "Research Assistant",
+      "url": "https://profiles.rice.edu/faculty/eugene-zubarev",
+      "startDate": "2013-09",
+      "endDate": "2014-05",
+      "summary": "Academic laboratory studying nanoparticle applications",
+      "highlights": [
+        "Synthesized, functionalized, and analyzed gold nanoparticles",
+        "Closely assisted a graduate student mentor in optimizing synthetic conditions"
+      ]
+    },
+    {
+      "name": "Smith Laboratory, UT Dallas",
+      "position": "Welch Summer Scholar Program Participant",
+      "url": "https://welch1.org/grants-programs/welch-summer-scholar-program",
+      "startDate": "2012-06",
+      "endDate": "2012-07",
+      "summary": "High school-level chemistry research program across the University of Texas system",
+      "highlights": [
+        "Synthesized medical carbon fiber precursors, characterized and presented their performance",
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "California Institute of Technology",
+      "url": "http://pachterlab.github.io/",
+      "area": "Academic laboratory developing end-to-end, physically informed bioinformatics methods",
+      "studyType": "Ph.D., Pachter Laboratory",
+      "startDate": "2018-09",
+      "endDate": "2023-06",
+      // "score": "",
+      "tasks": [
+        "Developing physical theory and scalable stochastic methods for multi-modal single-cell sequencing data",
+        "Organizing cross-disciplinary, multi-institution collaborations in physics and machine learning",
+        "Building, training, and leading a subgroup dedicated to addressing gaps in current methods",
+      ]
+    },
+    {
+      "institution": "William Marsh Rice University",
+      "url": "https://www.rice.edu/",
+      // "area": "Chemical engineering",
+      "studyType": "B.S./B.A.",
+      "startDate": "2018-09",
+      "endDate": "2023-06",
+      // "score": "",
+      "tasks": [
+        "Bachelor of Science in Chemical and Biomolecular Engineering ",
+        "Bachelor of Arts in Chemistry and Asian Studies"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Caltech Graduate Research Spotlight Second Prize",
+      "date": "2019-05",
+      // "awarder": "Royal Swedish Academy of Sciences",
+      // "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    {
+      "title": "Rice Engineers Week Student Competition Prize Winner",
+      "date": "2014-02",
+      // "awarder": "Royal Swedish Academy of Sciences",
+      // "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    {
+      "title": "Rice Center for Engineering Leadership Liftoff Winner",
+      "date": "2013-09",
+      // "awarder": "Royal Swedish Academy of Sciences",
+      // "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Elementary"
+    },
+    {
+      "language": "Mandarin Chinese",
+      "fluency": "Elementary"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": []
+}

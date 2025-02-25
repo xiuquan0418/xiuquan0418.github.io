@@ -1,0 +1,287 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Name
+      value: Gennady Gorin
+    - name: Location
+      value: Emeryville, California
+    - name: Summary
+      value: Senior Scientist, Computational Biology at Fauna Bio, building tools for non-model organism omics
+    - name: Goals
+      value: Bringing a rigorous mechanistic approach to industry omics research and development
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D.
+      institution: California Institute of Technology, Pachter Laboratory
+      year: 2018 - 2023
+      description:
+        - 'Thesis: "Stochastic Foundations for Single-Cell RNA Sequencing"'
+        - title: Academic laboratory developing end-to-end, physically informed bioinformatics methods
+          contents:
+            - Developing physical theory and scalable stochastic methods for multi-modal single-cell sequencing data
+            - Organizing cross-disciplinary, multi-institution collaborations in physics and machine learning
+            - Building, training, and leading a subgroup dedicated to addressing gaps in current methods
+    - title: B.S./B.A.
+      institution: Rice University
+      year: 2013 - 2017
+      description:
+        - Bachelor of Science in Chemical and Biomolecular Engineering 
+        - Bachelor of Arts in Chemistry and Asian Studies
+
+- title: Technical Skills
+  type: map
+  contents:
+    - name: Computation
+      value: Python (NumPy, SciPy, PyTorch, pandas), MATLAB, bash, CentOS administration 
+    - name: Data&nbsp;analysis
+      value: bioinformatics (kb, scanpy, velocyto, Monod) for multi-modal single-cell RNA sequencing technologies
+    - name: Modeling
+      value: stochastic biophysical modeling, simulation, and inference; variational autoencoder design
+    - name: Mathematics
+      value: stochastic processes, partial differential equations, approximation theory
+
+- title: Communications Skills
+  type: map
+  contents:
+    - name: Interpersonal
+      value: collaborating in a fast-paced pharma startup, building effective teams for solving problems
+    - name: Written
+      value: scientific manuscripts, industry technical reports
+    - name: Visual
+      value: data visualization, qualitative illustrations of mathematics and biophysics
+    - name: Verbal
+      value: seminar presentations to specialist and non-technical audiences, scripted and unscripted theater
+    - name: Languages
+      value: native English and Russian; elementary French and Mandarin
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Senior Scientist, Computational Biology 
+      company: Fauna Bio
+      year: 2023 – present
+      description:
+        - title: Startup applying hibernation biology discoveries to improve human health
+          contents:
+            - Designing computational methods for non-model organism omics
+    - title: Data Sciences Co-op 
+      company: Celsius Therapeutics
+      year: 2022
+      description:
+        - title: Pharmaceutical startup leveraging transcriptomic analyses to develop therapeutics
+          contents:
+            - Designed methods to decipher transcriptional mechanisms of disease states for drug discovery
+            - Integrated analyses into the company’s cloud computational pipeline for large patient datasets
+    - title: Research Intern
+      institution: Golding Laboratory, Baylor College of Medicine
+      year: 2017 - 2018
+      description:
+        - title: Academic laboratory synthesizing experiments and biophysics to decipher cell biology
+          contents:
+            - Designed stochastic simulations and statistical analyses of microbial gene regulation
+            - Organized a collaboration at the Xu Laboratory, Shanghai Jiao Tong University, to develop algorithms
+
+    - title: NSF Research Experience for Undergraduates Intern
+      institution: Douglas Laboratory, Indiana University
+      year: 2016
+      description:
+        - title: Academic laboratory developing virus-like particles as a biotechnology platform
+          contents:
+            - Designed, constructed, and modeled a reactor to investigate flow kinetics of encapsulated enzymes
+
+    - title: Future Chemists International Summer Camp Participant
+      institution: Lu Laboratory, University of Science and Technology of China
+      year: 2015
+      description: 
+        - title: Undergraduate-level research and cultural immersion program
+          contents:
+            - Synthesized novel palladium nanoparticles and monitored their catalytic activity by gas chromatography
+
+    - title: Research Assistant
+      institution: Zubarev Laboratory, Rice University
+      year: 2013 - 2014
+      description: 
+        - title: Academic laboratory studying nanoparticle applications
+          contents:
+            - Synthesized, functionalized, and analyzed gold nanoparticles
+            - Closely assisted a graduate student mentor in optimizing synthetic conditions
+
+    - title: Welch Summer Scholar Program Participant
+      institution: Smith Laboratory, University of Texas at Dallas
+      year: 2012
+      description: 
+        - title: High school-level chemistry research program across the University of Texas system
+          contents:
+            - Synthesized medical carbon fiber precursors, characterized and presented their performance
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/pachterlab/CGCCP_2023"><i>biVI</i> (Python)</a>
+      year: 2021
+      description: Physically motivated variational autoencoder
+    - title: <a href="https://pypi.org/project/monod/"><i>Monod</i> (Python)</a>
+      year: 2021
+      description: Mechanistic transcriptional inference from sequencing data
+    - title: <a href="https://pypi.org/project/protaccel/">protaccel (Python)</a>
+      year: 2019
+      description: Trajectory inference from protein/RNA datasets 
+    - title: <a href="https://data.caltech.edu/records/1287">Transcriptional elongation simulator (MATLAB)</a>
+      year: 2019
+      description: Stochastic simulation for visualization and estimation of transcriptional kinetics 
+
+- title: Presentations and Professional Development
+  type: time_table
+  contents:
+    - year: 2023
+      items: 
+        - title: American Physical Society March Meeting
+          contents:
+            - '"Interpretable and tractable probabilistic models for single-cell RNA sequencing", talk'
+    - year: 2022
+      items: 
+        - title: Theoretical Biophysics podcast
+          contents:
+            - '"Modeling bursty transcription", episode'
+        - title: Chen Neuroscience Research Building Weekly Seminar Series
+          contents:
+            - '"Parameterizing models of stochastic transcriptional dynamics with snapshot scRNA-seq data", seminar'
+        - title: Cold Spring Harbor Laboratory Systems Biology 2022
+          contents:
+            - '"Parameterizing models of stochastic transcriptional dynamics with snapshot scRNA-seq data", talk'
+    - year: 2021
+      items: 
+        - title: Caltech Chemistry and Chemical Engineering Seminar Day
+          contents:
+            - '"How should we think about cells?", seminar'
+        - title: Gordon Research Conference on Stochastic Physics in Biology 2021
+          contents:
+            - '"Markov models of RNA transcription and sequencing", poster'
+        - title: Society for Industrial and Applied Mathematics Dynamical Systems 2021 
+          contents:
+            - '"Modular and interpretable models of transcriptional noise and splicing", poster'
+        - title: Biophysical Society 2021 Annual Meeting
+          contents:
+            - '"Analysis of Length Biases in Single-Cell RNA Sequencing of Unspliced mRNA by Markov Modeling", poster'
+    - year: 2020
+      items: 
+        - title: Cold Spring Harbor Laboratory Genome Informatics 2020
+          contents:
+            - '"Analysis of Length Biases in Single-Cell RNA Sequencing of Unspliced mRNA by Markov Modeling", poster'
+        - title: Biophysical Society 2020 Annual Meeting
+          contents:
+            - '"Semi-Analytical Methods for RNA Burst Models", poster'
+    - year: 2019
+      items: 
+        - title: Caltech Graduate Research Spotlight
+          contents:
+            - '"RNA velocity and protein acceleration from multimodal single-cell experiments", poster'
+    - year: 2018
+      items: 
+        - title: q-bio 2018 Conference
+          contents:
+            - '"Simulating and Fitting Stochastic Models of RNA Transcription via the Gillespie Algorithm", poster'
+        - q-bio 2018 Summer School
+    - year: 2017
+      items: 
+        - title: Rice Engineering Design Showcase
+          contents:
+            - '"Cow Manure to Methanol by Hydrothermal Gasification"'
+        - title: Akers Senior Design Competition
+          contents:
+            - '"Cow Manure to Methanol by Hydrothermal Gasification"'
+    - year: 2016
+      items: 
+        - title: Indiana University Materials Symposium
+          contents:
+            - '"A Flow Reactor Using Catalytic Bulk-Assembled Virus-Like Particles", poster'
+
+- title: Pedagogical and Consulting Experience
+  type: time_table
+  contents:
+    - title: Teaching Assistant 
+      institution: Division of Chemistry and Chemical Engineering, Caltech
+      year: 2019 - 2021
+      description:
+        - Graded graduate-level chemical engineering thermodynamics courses
+    - title: Technical Intern  
+      institution: Houston Asian American Archive, Rice University
+      year: 2015 - 2017
+      description:
+        - Researched and proposed solutions for an oral history archive’s website and storage
+        - Created a video for university’s celebration of Asian alumni attended by nearly 200 people
+    - title: Teaching Assistant 
+      institution: Department of Bioengineering, Rice University
+      year: 2017
+      description:
+        - Developed rubrics for and graded an upper-level bioengineering numerical methods course
+    - title: Teaching Assistant 
+      institution: Department of Chemistry, Rice University
+      year: 2014
+      description:
+        - Graded a sophomore-level Organic Chemistry course
+
+- title: Volunteer Experience
+  type: time_table
+  contents:
+    - title: Operations Director/Secretary  
+      institution: KTRU Rice Radio, Rice University
+      year: 2013 - 2018
+      description:
+        - Managed PSA and promotion rotation of an FM college radio station
+        - Ensured compliance with FCC regulations
+        - Developed budgetary documentation and secured grant funds up to $25,000
+        - Hosted a musique concrète radio show 
+    - title: Proofreader  
+      institution: Distributed Proofreaders
+      year: 2021
+      description:
+        - Proofread public domain e-books for Distributed Proofreaders, a non-profit project that produces texts for Project Gutenberg
+      
+
+- title: Awards
+  type: time_table
+  contents:
+    - year: 2019
+      items: 
+        - Caltech Graduate Research Spotlight Second Prize
+    - year: 2014
+      items: 
+        - Rice Engineers Week Student Competition Prize Winner
+    - year: 2013
+      items: 
+        - Rice Center for Engineering Leadership Liftoff Winner
+
+- title: Scholarships and Honors
+  type: time_table
+  contents:
+    - year: 2017
+      items: 
+        - Dwane Rivers Memorial Scholarship in Chemical Engineering
+        - Undergraduate Asian Studies Internship Award for summer internship in Asia
+    - year: 2016 - 2017
+      items: 
+        - Louis J. Walsh Scholarship in Engineering
+        - T.W. Moore Scholarship, awarded to 5 juniors with highest GPAs in department
+    - year: 2013 - 2017
+      items: 
+        - Rice University President's Honor Roll, 6 out of 8 semesters at Rice University
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
