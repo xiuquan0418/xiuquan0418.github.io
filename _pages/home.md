@@ -9,31 +9,39 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Electrodynamics</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Path Integrals</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Superfluidity</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Parton Model</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Computing</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Nanotechnology</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Computational Biology</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Biomedical AI</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Single-Cell Genomics</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Network Science</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Machine Learning</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Mathematical Data Science</a>
 </div>
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
+The Wang Research Group is an interdisciplinary research group in the Department of Mathematics and Computer Science at Tougaloo College. We develop artificial intelligence, mathematical, and computational approaches to understand complex biological and biomedical systems.
+
+Our research integrates **machine learning, mathematical modeling, network science, and bioinformatics** to investigate cellular dynamics, disease mechanisms, and high-dimensional biological data. Current research areas include **single-cell transcriptomics, RNA velocity, large-scale biological networks, long-read sequencing, and biomedical artificial intelligence**.
 
 <div class="callout callout-success" markdown="0">
-<div class="callout-title"><i class="fa-solid fa-award callout-icon"></i> Nobel Prize in Physics, 1965</div>
-<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
+<div class="callout-title"><i class="fa-solid fa-flask callout-icon"></i> Research at the Intersection of AI, Mathematics, and Biology</div>
+<p>Our group develops computational methods and machine learning models to uncover cellular dynamics, characterize complex biological networks, and advance data-driven biomedical discovery.</p>
 </div>
 
 <div class="banner-frame" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Feynman diagrams" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Computational biology and biomedical data science research" loading="lazy">
+<div class="banner-caption">Computational approaches for understanding complex biological systems through artificial intelligence, network science, and mathematical data analysis.</div>
 </div>
 
-### About me
+### Our Research
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+Our research is organized around three interconnected areas:
+
+**Computational Biology & Single-Cell Genomics**  
+We develop computational approaches to investigate cellular dynamics and state transitions using single-cell transcriptomics, RNA velocity, long-read sequencing, and isoform-level analysis.
+
+**Biomedical Artificial Intelligence**  
+We develop machine learning and deep learning approaches for biomedical data analysis, including EEG-based neurological disease classification and multimodal learning for mental health applications.
+
+**Mathematical Data Science & Network Science**  
+We use mathematical modeling, graph algorithms, and topology-aware methods to study large-scale biological networks and complex high-dimensional data.
+
+Our group is committed to interdisciplinary research and undergraduate research training. Students work on real-world computational problems and gain experience in programming, data analysis, scientific communication, conference presentations, and research publication.
