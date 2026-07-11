@@ -133,11 +133,22 @@ Computational Biology · Biomedical AI · Single-Cell Genomics · Network Scienc
 
 <h3>Research Support</h3>
 
-<ul>
 {% for grant in site.data.grants %}
-<li>{{ grant.name }}</li>
+
+<div style="margin-bottom: var(--space-5);">
+
+<strong>{{ grant.name }}</strong>
+
+<p style="margin-top: var(--space-1); color: var(--text-secondary);">
+{% if grant.sponsor %}{{ grant.sponsor }}{% endif %}
+{% if grant.period %} · {{ grant.period }}{% endif %}
+{% if grant.role %} · {{ grant.role }}{% endif %}
+{% if grant.status %} · {{ grant.status }}{% endif %}
+</p>
+
+</div>
+
 {% endfor %}
-</ul>
 
 </div>
 {% endif %}

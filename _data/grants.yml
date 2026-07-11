@@ -1,5 +1,80 @@
-# Grants and funding, shown on the About page.
-# Each entry needs: name
-- name: NSF Grant for Quantum Electrodynamics Research
-- name: ONR Contract for Parallel Computing Research
-- name: DOE Grant for Parton Model Development
+# ============================================================
+# Wang Research Group - Grants and Research Support
+# ============================================================
+
+# ------------------------------------------------------------
+# Current and Active Funded Projects
+# ------------------------------------------------------------
+
+- name: "NSF HBCU-UP Implementation Project (#2510537): Strengthening the Diverse STEM Pipeline through a Holistic Multi-layer Approach"
+  sponsor: "National Science Foundation"
+  period: "2025–2030"
+  amount: "$2,245,846"
+  role: "Co-PI, Lead Author and Technical Lead"
+  status: "Active"
+
+- name: "NSF HBCU-UP Research Initiation Award (#2300445): Uncovering and Extracting Biological Information from Nanopore Long-Read Sequencing Data with Machine Learning and Mathematical Approaches"
+  sponsor: "National Science Foundation"
+  period: "2023–2026"
+  amount: "$299,882"
+  role: "Principal Investigator"
+  status: "Active"
+
+- name: "MS-INBRE Summer Undergraduate Research Fellowship (SURF): Mega-Scale Cell-Cell Similarity Network Analysis of Embryonic Mouse Brain Transcriptomes"
+  sponsor: "Mississippi INBRE"
+  period: "2026"
+  amount: "$25,550"
+  role: "Subaward PI"
+  status: "Active"
+
+- name: "Nissan Foundation Award: Increasing the STEM Pipeline"
+  sponsor: "Nissan Foundation"
+  period: "2026–2027"
+  amount: "$45,000"
+  role: "Principal Investigator"
+  status: "Active"
+
+
+# ------------------------------------------------------------
+# Pending Projects
+# ------------------------------------------------------------
+
+- name: "NSF EPSCoR E-RISE RII Project (#269732): Increasing Mississippi's Research Capacity in Artificial Intelligence for Agricultural Autonomy (AI4A2) for Food Security and Upskilled Farm Work"
+  sponsor: "National Science Foundation"
+  period: "2027–2030"
+  amount: "$8,000,000"
+  role: "Co-PI"
+  status: "Pending"
+
+- name: "Integrating RNA Velocity and Isoform-Level Analysis to Define Macrophage State Transitions in Non-Small Cell Lung Cancer"
+  sponsor: "MS-INBRE Project Development Grant"
+  period: "2026–2028"
+  amount: "$200,000"
+  role: "Principal Investigator"
+  status: "Pending"
+
+
+# ------------------------------------------------------------
+# Selected Completed Projects
+# ------------------------------------------------------------
+
+- name: "RITA UARC Contract Award: Representational Assessment Tools for Neuroscience Computational Modeling and AI Engineering"
+  sponsor: "RITA UARC"
+  period: "2023–2025"
+  amount: "$149,998"
+  role: "Subaward PI"
+  status: "Completed"
+
+- name: "Uncovering and Understanding Population Differences with Topological Methods"
+  sponsor: "NIH/NIGMS, Mississippi Center for Clinical and Translational Research"
+  period: "2017–2021"
+  amount: "$100,225"
+  role: "Subaward PI"
+  status: "Completed"
+
+- name: "Designing Machine Learning: A New Multidisciplinary Course at Tougaloo"
+  sponsor: "HBCU-UP Seed Grant, Curriculum Development Award"
+  period: "2021–2022"
+  amount: "$10,000"
+  role: "Subaward PI"
+  status: "Completed"
