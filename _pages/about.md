@@ -102,14 +102,6 @@ Tougaloo College
 
 </div>
 
-<p style="margin-top: var(--space-4);">
-Dr. Wang's research integrates artificial intelligence, mathematical modeling, and computational biology to study complex biomedical data. His current work focuses on single-cell transcriptomics, RNA velocity, large-scale biological networks, long-read sequencing, and biomedical artificial intelligence.
-</p>
-
-<p>
-<strong>Research Interests:</strong><br>
-Computational Biology · Biomedical AI · Single-Cell Genomics · Network Science · Machine Learning · Mathematical Data Science
-</p>
 
 {% if site.data.pi[0].education %}
 

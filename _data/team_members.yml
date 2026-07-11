@@ -3,17 +3,17 @@
 # Optional: email, website, scholar, github, researchgate, cv
 # Photos go in images/ or images/team/
 
-- name: George Zweig
+- name: Damirah Moore
   photo: team/george-zweig.svg
-  info: PhD Student, Quark Model
+  info: Junior, Mathematics
 
-- name: Albert Hibbs
+- name: Gabriela Jeter
   photo: team/albert-hibbs.svg
-  info: PhD Student, Quantum Mechanics
+  info: Junior, Biology
 
-- name: Thomas Curtright
+- name: Dania Zein
   photo: team/thomas-curtright.svg
-  info: PhD Student, Quantum Field Theory
+  info: post-graduate, Mathematics and Computer Science
 
 - name: "This could be you!"
   photo: rock.jpg
