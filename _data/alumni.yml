@@ -2,17 +2,12 @@
 # Each entry needs: name, duration, info
 # Optional: photo, email
 
-- name: Albert Hibbs
-  photo: team/albert-hibbs.svg
-  duration: 1951-55
-  info: Now at Jet Propulsion Laboratory
+- name: Raven Lee
+  location: Meharry Medical College
+  degree: M.S. in Data Science
+  year: 2026
 
-- name: William Frazer
-  photo: team/william-frazer.svg
-  duration: 1954-58
-  info: Now Professor at UC San Diego
-
-- name: Robert Hellwarth
-  photo: team/robert-hellwarth.svg
-  duration: 1952-56
-  info: Now Professor at USC
+- name: Dwhite Ross
+  location: Brown University
+  degree: Ph.D.
+  year: 2025

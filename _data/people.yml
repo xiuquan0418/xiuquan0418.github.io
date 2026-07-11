@@ -1,31 +1,13 @@
 # Students and mentees, shown on the About page.
 # Each entry needs: name, location, degree, year
-- name: Albert Hibbs
-  location: Caltech
-  degree: Ph.D.
-  year: 1955
+- name: Raven Lee
+  location: Meharry Medical College
+  degree: M.S. in Data Science
+  year: 2026
 
-- name: George Zweig
-  location: Caltech
+- name: Dwhite Ross
+  location: Brown University
   degree: Ph.D.
-  year: 1964
+  year: 2025
 
-- name: Giovanni Rossi Lomanitz
-  location: Cornell
-  degree: Ph.D.
-  year: 1951
 
-- name: Thomas Curtright
-  location: Caltech
-  degree: Ph.D.
-  year: 1977
-
-- name: William Frazer
-  location: Caltech
-  degree: Ph.D.
-  year: 1958
-
-- name: Robert Hellwarth
-  location: Caltech
-  degree: Ph.D.
-  year: 1956
