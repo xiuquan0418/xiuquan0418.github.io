@@ -12,6 +12,7 @@
   amount: "$2,245,846"
   role: "Co-PI, Lead Author and Technical Lead"
   status: "Active"
+  url: "https://www.nsf.gov/awardsearch/show-award?AWD_ID=2510537"
 
 - name: "NSF HBCU-UP Research Initiation Award (#2300445): Uncovering and Extracting Biological Information from Nanopore Long-Read Sequencing Data with Machine Learning and Mathematical Approaches"
   sponsor: "National Science Foundation"
@@ -19,6 +20,7 @@
   amount: "$299,882"
   role: "Principal Investigator"
   status: "Active"
+  url: "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2300445&HistoricalAwards=false"
 
 - name: "MS-INBRE Summer Undergraduate Research Fellowship (SURF): Mega-Scale Cell-Cell Similarity Network Analysis of Embryonic Mouse Brain Transcriptomes"
   sponsor: "Mississippi INBRE"

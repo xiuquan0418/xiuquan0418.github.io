@@ -4,17 +4,17 @@
 # Photos go in images/ or images/team/
 
 - name: Damirah Moore
-  photo: team/george-zweig.svg
+  photo: team/Damirah_Moore.PNG
   info: Junior, Mathematics
 
 - name: Gabriela Jeter
-  photo: team/albert-hibbs.svg
+  photo: team/TC.svg
   info: Junior, Biology
 
 - name: Dania Zein
-  photo: team/thomas-curtright.svg
+  photo: team/Dania_Zein.jpeg
   info: post-graduate, Mathematics and Computer Science
 
-- name: "This could be you!"
-  photo: rock.jpg
-  info: See openings for more info
+- name: Raven Lee
+  photo: team/Raven_Lee.jpg
+  info: Senior, Mathematics and Data Science

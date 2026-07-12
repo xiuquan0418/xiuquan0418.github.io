@@ -1,13 +1,11 @@
-# Former lab members.
-# Each entry needs: name, duration, info
-# Optional: photo, email
+# ============================================================
+# Wang Research Group Alumni
+# ============================================================
 
-- name: Raven Lee
-  location: Meharry Medical College
-  degree: M.S. in Data Science
-  year: 2026
+- name: "Raven Lee"
+  duration: "2024–2026"
+  info: "M.S. Student in Data Science, Meharry Medical College"
 
-- name: Dwhite Ross
-  location: Brown University
-  degree: Ph.D.
-  year: 2025
+- name: "Dwight Ross"
+  duration: "2022–2024"
+  info: "Wang Research Group Alumnus"

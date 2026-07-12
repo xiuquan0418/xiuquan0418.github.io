@@ -129,7 +129,15 @@ Tougaloo College
 
 <div style="margin-bottom: var(--space-5);">
 
+{% if grant.url and grant.url != "" %}
+<strong>
+<a href="{{ grant.url }}" target="_blank" rel="noopener noreferrer">
+{{ grant.name }}
+</a>
+</strong>
+{% else %}
 <strong>{{ grant.name }}</strong>
+{% endif %}
 
 <p style="margin-top: var(--space-1); color: var(--text-secondary);">
 {% if grant.sponsor %}{{ grant.sponsor }}{% endif %}
