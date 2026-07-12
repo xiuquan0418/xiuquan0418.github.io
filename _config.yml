@@ -2,7 +2,7 @@
 # STEP 1: Your Identity (required)
 # ============================================================
 name: "Xiuquan Wang"
-title: "Computational Biology · Biomedical AI · Mathematical Data Scienc"
+title: "Associate Professor of Mathematics / Chair"
 institution: "Tougaloo College"
 email: xwang@tougaloo.edu
 photo: profile.jpg  # place your photo in images/
@@ -17,7 +17,7 @@ links:
   orcid: ""
   twitter: ""
   linkedin: ""
-  cv: ""  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
+  cv: "papers/Xiuquan_Wang_CV2026.pdf"  # e.g., "papers/cv.pdf" — leave blank to hide the CV icon
 
 # ============================================================
 # STEP 3: Site Settings
@@ -40,10 +40,8 @@ nav_pages:
   - name: publications
   - name: presentations
   - name: research
-  - name: software
   - name: team
   - name: teaching
-  - name: blogs
 
 # ============================================================
 # Advanced Settings (you probably don't need to change these)
