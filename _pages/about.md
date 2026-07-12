@@ -196,29 +196,12 @@ The Wang Research Group actively mentors undergraduate researchers in mathematic
 
 {% if site.data.funders %}
 <div class="section-card">
-
 <h3>Research Sponsors and Partners</h3>
 
-<div class="sponsor-logos"
-     style="display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-            gap: var(--space-6);">
+<div class="sponsor-logos" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--space-6);">
 
 {% for funder in site.data.funders %}
-
-<a href="{{ funder.url }}" target="_blank">
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ funder.image }}"
-     alt="{{ funder.name | default: 'Research sponsor' }}"
-     style="max-height: 80px;
-            max-width: 200px;
-            border-radius: 0;"
-     loading="lazy">
-
-</a>
-
+<a href="{{ funder.url }}" target="_blank" rel="noopener noreferrer"><img src="{{ site.url }}{{ site.baseurl }}/images/{{ funder.image }}" alt="{{ funder.name }}" style="max-height: 80px; max-width: 200px; border-radius: 0;" loading="lazy"></a>
 {% endfor %}
 
 </div>
