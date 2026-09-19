@@ -1,9 +1,14 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"Bioconjugate Chem.":
+  url: https://pubs.acs.org/journal/bcches
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Quant. Biol.":
+  url: https://journal.hep.com.cn/qb
 
-"Vision":
-  color: "#009f36"
+"Front. Genet.":
+  url: https://www.frontiersin.org/journals/genetics
+
+"IJCBDD":
+  url: https://www.inderscience.com/jhome.php?jcode=ijcbdd
+
+"Theor. Popul. Biol.":
+  url: https://www.sciencedirect.com/journal/theoretical-population-biology

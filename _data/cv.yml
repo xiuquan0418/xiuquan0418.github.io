@@ -27,7 +27,7 @@ cv:
     Education:
       - institution: Southern Illinois University
         location: Carbondale, Illinois
-        url: https://www.math.siu.edu/
+        url: https://academics.siu.edu/science-and-mathematics/math/
         area: Mathematics
         studyType: PhD
         start_date: 2009
@@ -35,7 +35,7 @@ cv:
 
       - institution: Southern Illinois University
         location: Carbondale, Illinois
-        url: https://www.math.siu.edu/
+        url: https://academics.siu.edu/science-and-mathematics/math/
         area: Mathematics
         studyType: Master
         start_date: 2007
@@ -137,78 +137,16 @@ cv:
         releaseDate: "2010"
         url: https://doi.org/10.1016/j.tpb.2010.03.007
 
-    Skills:
-      - name: Programming
-        icon: fa-solid fa-code
-        keywords: "Python, R, C/C++, MATLAB, Mathematica, Stata"
-
-      - name: Machine Learning Frameworks
-        icon: fa-solid fa-brain
-        keywords: "PyTorch, TensorFlow, scikit-learn"
-
-      - name: Bioinformatics
-        icon: fa-solid fa-dna
-        keywords: "Single-Cell Sequencing Analysis, Bioconductor, Nextflow"
-
-      - name: Mathematical and Computational Methods
-        icon: fa-solid fa-square-root-variable
-        keywords: "Numerical Analysis, Topological Data Analysis, Network Analysis, Parallel Computing"
-
-      - name: Computing Platforms
-        icon: fa-solid fa-server
-        keywords: "High-Performance Computing, AWS, Google Cloud Platform, Linux, Bash, Git/GitHub"
-
-    Languages:
-      - name: China
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Applied Mathematics and Mathematical Biology
-        icon: fa-solid fa-square-root-variable
-        keywords: "Mathematical Modeling, Dynamical Systems, Topological Data Analysis"
-
-      - name: Computational Biology and Bioinformatics
-        icon: fa-solid fa-dna
-        keywords: "RNA Velocity, Single-Cell Transcriptomics, Nanopore Sequencing"
-
-      - name: Machine Learning and Biomedical AI
-        icon: fa-solid fa-brain
-        keywords: "Deep Learning, Biological Data Analysis, Biomedical Applications"
-
-      - name: Complex Biological Networks
-        icon: fa-solid fa-diagram-project
-        keywords: "Cell-Cell Similarity Networks, Network Topology, Cellular Dynamics"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
+    Active Funded Grant:
       - name: Integrating RNA Velocity and Isoform-Level Analysis to Define Macrophage State Transitions in Non-Small Cell Lung Cancer
         summary: >
-          MS-INBRE Project Development Grant (PDG).
           Research integrating RNA velocity and isoform-level
           analysis to characterize macrophage state transitions
           in non-small cell lung cancer.
         highlights:
           - "Role: Principal Investigator"
           - "Funding: $200,000"
-          - "Funding Agency: MS-INBRE"
+          - "Funding Agency: NIH/MS-INBRE"
         start_date: 2026-09-01
         end_date: 2028-08-31
 
@@ -250,4 +188,51 @@ cv:
           - "Funding Agency: Nissan Foundation"
         start_date: 2026-04-01
         end_date: 2027-03-31
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, R, C/C++, MATLAB, Mathematica, Stata"
+
+      - name: Machine Learning Frameworks
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, TensorFlow, scikit-learn"
+
+      - name: Bioinformatics
+        icon: fa-solid fa-dna
+        keywords: "Single-Cell Sequencing Analysis, Bioconductor, Nextflow"
+
+      - name: Mathematical and Computational Methods
+        icon: fa-solid fa-square-root-variable
+        keywords: "Numerical Analysis, Topological Data Analysis, Network Analysis, Parallel Computing"
+
+      - name: Computing Platforms
+        icon: fa-solid fa-server
+        keywords: "High-Performance Computing, AWS, Google Cloud Platform, Linux, Bash, Git/GitHub"
+
+    Interests:
+      - name: Applied Mathematics and Mathematical Biology
+        icon: fa-solid fa-square-root-variable
+        keywords: "Mathematical Modeling, Dynamical Systems, Topological Data Analysis"
+
+      - name: Computational Biology and Bioinformatics
+        icon: fa-solid fa-dna
+        keywords: "RNA Velocity, Single-Cell Transcriptomics, Nanopore Sequencing"
+
+      - name: Machine Learning and Biomedical AI
+        icon: fa-solid fa-brain
+        keywords: "Deep Learning, Biological Data Analysis, Biomedical Applications"
+
+      - name: Complex Biological Networks
+        icon: fa-solid fa-diagram-project
+        keywords: "Cell-Cell Similarity Networks, Network Topology, Cellular Dynamics"
+
+
+
+    Languages:
+      - name: China
+        summary: "Native speaker"
+
+      - name: English
+        summary: "Fluent"    
    
