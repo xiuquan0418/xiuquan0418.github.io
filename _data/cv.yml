@@ -1,156 +1,241 @@
----
-layout: page
-title: Research Group
-permalink: /people/
-description: Research faculty and student researchers working with Dr. Xiuquan Wang.
-nav: true
-nav_order: 6
----
+# Replace the sample Einstein data in _data/cv.yml with this file.
+# Source: Xiuquan Wang CV (2026), supplied by the author.
+cv:
+  name: Xiuquan Wang
+  label: Associate Professor of Mathematics | Endowed Chair | Department Chair
+  email: xwang@tougaloo.edu
+  location: Tougaloo, Mississippi, USA
+  image: ""
+  summary: >-
+    Applied mathematician and data scientist specializing in machine learning,
+    bioinformatics, RNA velocity, single-cell and long-read sequencing analysis,
+    network analysis, and topological data analysis. Department chair and
+    externally funded researcher with extensive undergraduate teaching,
+    curriculum development, and research mentoring experience.
 
-Our research group develops mathematical and computational approaches
-for analyzing complex biological data. Our work integrates applied
-mathematics, machine learning, computational biology, and biomedical
-data science, with an emphasis on interdisciplinary collaboration
-and undergraduate research.
+  social_networks:
+    - network: GitHub
+      username: xiuquan0418
 
----
+  sections:
+    Education:
+      - institution: Southern Illinois University
+        location: Carbondale, Illinois, USA
+        area: Mathematics
+        studyType: Ph.D. and M.S.
+        end_date: 2014-08
+      - institution: Hebei Normal University
+        location: China
+        area: Electrical Engineering
+        studyType: B.S.
+        end_date: 2002-08
 
-## Principal Investigator
+    Experience:
+      - company: Tougaloo College
+        position: Hazael McFarland (H. M.) Thompson Endowed Chair in Mathematics
+        location: Tougaloo, Mississippi, USA
+        start_date: 2026-08
+        end_date: present
+      - company: Tougaloo College
+        position: Chair, Department of Mathematics & Computer Science
+        location: Tougaloo, Mississippi, USA
+        start_date: 2024-07
+        end_date: present
+        highlights:
+          - Departmental leadership, faculty coordination, curriculum development, and student advising.
+      - company: Tougaloo College
+        position: Associate Professor of Mathematics
+        location: Tougaloo, Mississippi, USA
+        start_date: 2021-04
+        end_date: present
+      - company: Children's Hospital of Philadelphia Research Institute / University of Pennsylvania
+        position: Visiting Data Scientist
+        location: Philadelphia, Pennsylvania, USA
+        start_date: 2022-01
+        end_date: present
+        highlights:
+          - Computational research on high-throughput genomic and transcriptomic datasets, including nanopore long-read sequencing, single-cell RNA-seq, RNA velocity, and DNA methylation.
+          - Development and benchmarking of methods for long-read single-cell RNA-seq data.
+          - Transformer-based methods for DNA methylation detection using nanopore sequencing signals.
+      - company: Tougaloo College
+        position: Assistant Professor of Mathematics
+        location: Tougaloo, Mississippi, USA
+        start_date: 2015-08
+        end_date: 2021-04
+      - company: Penn State Altoona
+        position: Assistant Professor of Mathematics
+        location: Altoona, Pennsylvania, USA
+        start_date: 2014-08
+        end_date: 2015-07
+      - company: Southern Illinois University
+        position: Graduate Research/Teaching Assistant, Department of Mathematics
+        location: Carbondale, Illinois, USA
+        start_date: 2007-08
+        end_date: 2014-05
+      - company: University of Mississippi Medical Center
+        position: Investigator, Mississippi Center for Clinical and Translational Research (MCCTR)
+        location: Jackson, Mississippi, USA
+        start_date: 2017-07
+        end_date: 2021-07
+        highlights:
+          - Applied topological data analysis to complex biomedical and population-level datasets.
+      - company: Brown University Pre-College Programs
+        position: Instructor
+        start_date: 2022
+        end_date: 2024
+        highlights:
+          - Taught linear algebra for machine learning, machine learning and AI with Python, bioinformatics data skills, and real-world networks.
 
-<div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; margin: 24px 0;">
+    Projects:
+      - name: MS-INBRE Project Development Grant — Macrophage State Transitions in Non-Small Cell Lung Cancer
+        summary: >-
+          Integrating RNA Velocity and Isoform-Level Analysis to Define Macrophage
+          State Transitions in Non–Small Cell Lung Cancer. Principal Investigator;
+          total award amount $200,000.
+        start_date: 2026-09
+        end_date: 2028-08
+        highlights:
+          - RNA velocity and isoform-level analysis of macrophage cell-state transitions.
+      - name: NSF HBCU-UP Implementation Project (#2510537)
+        summary: >-
+          Strengthening the Diverse STEM Pipeline through a Holistic Multi-layer
+          Approach. Co-Principal Investigator, lead author, and technical lead;
+          total project funding $2,245,846.
+        start_date: 2025-08
+        end_date: 2030-07
+      - name: NSF HBCU-UP Research Initiation Award (#2300445)
+        summary: >-
+          Uncovering and Extracting Biological Information from Nanopore Long-read
+          Sequencing Data with Machine Learning and Mathematical Approaches.
+          Principal Investigator; total award amount $299,882. Award end date
+          recorded in the supplied CV is July 2027.
+        start_date: 2023-08
+        end_date: 2027-07
+      - name: Nissan Foundation Award — Increasing the STEM Pipeline
+        summary: >-
+          Principal Investigator; STEM pipeline development.
+        start_date: 2026-04
+        end_date: 2027-03
+      - name: MS-INBRE Summer Undergraduate Research Fellowship (SURF)
+        summary: >-
+          Mega-Scale Cell–Cell Similarity Network Analysis of Embryonic Mouse
+          Brain Transcriptomes. Subaward Principal Investigator; total funding
+          $25,550.
+        start_date: 2026-06
+        end_date: 2026-07
+      - name: RITA UARC Contract Award — Neuroscience Computational Modeling and AI Engineering
+        summary: >-
+          Representational Assessment Tools for Neuroscience Computational
+          Modeling and AI Engineering. Subaward Principal Investigator;
+          total funding $149,998.
+        start_date: 2023-07
+        end_date: 2025-07
+      - name: NIH/NIGMS MCCTR Investigator Development Project
+        summary: >-
+          Uncovering and Understanding Population Differences with Topological
+          Methods. Subaward Principal Investigator; total funding $100,225.
+        start_date: 2017-07
+        end_date: 2021-07
+      - name: HBCU-UP Seed Grant — Curriculum Development
+        summary: >-
+          Designing Machine Learning: A New Multidisciplinary Course at Tougaloo.
+          Subaward Principal Investigator; total funding $10,000.
+        start_date: 2021-06
+        end_date: 2022-04
 
-  <div style="flex: 0 0 180px; max-width: 100%;">
-    <img
-      src="{{ '/assets/img/prof_pic.jpeg' | relative_url }}"
-      alt="Dr. Xiuquan Wang"
-      style="width: 180px; max-width: 100%; border-radius: 8px;"
-    >
-  </div>
+    Publications:
+      - title: Comprehensive evaluation of human and murine protein coronae formed on choline carboxylic acid ionic liquid-modified PLGA nanoparticles
+        authors:
+          - C. M. Chism
+          - B. Sepehri
+          - N. Guerin
+          - R. Heintz
+          - C. M. Hamadani
+          - A. Hoang
+          - A. A. Shami
+          - M. B. Vanlandingham
+          - G. Dasanayake
+          - E. Jarrett
+          - S. K. Misra
+          - R. J. Doerksen
+          - J. S. Sharp
+          - Xiuquan Wang
+          - E. E. L. Tanner
+        publisher: Bioconjugate Chemistry, 36(12), 2569–2588
+        releaseDate: 2025
+      - title: Transformer-based DNA methylation detection on ionic signals from Oxford Nanopore sequencing data
+        authors:
+          - Xiuquan Wang
+          - M. U. Ahsan
+          - Y. Zhou
+          - K. Wang
+        publisher: Quantitative Biology, 11(3), 287–296
+        releaseDate: 2023
+        url: https://doi.org/10.15302/J-QB-022-0323
+      - title: Comprehensive network analysis reveals alternative splicing-related lncRNAs in hepatocellular carcinoma
+        authors:
+          - J. Wang
+          - Xiuquan Wang
+          - A. Bhat
+          - Y. Chen
+          - K. Xu
+          - Y.-y. Mo
+          - S. S. Yi
+          - Y. Zhou
+        publisher: Frontiers in Genetics, 11, 659
+        releaseDate: 2020
+        url: https://doi.org/10.3389/fgene.2020.00659
+      - title: 'LCLE: A web portal for lncRNA network analysis in liver cancer'
+        authors:
+          - Xiuquan Wang
+          - K. Xu
+          - J. Wang
+          - Y. Zhou
+        publisher: International Journal of Computational Biology and Drug Design, 13(5/6), 482–495
+        releaseDate: 2020
+        url: https://doi.org/10.1504/IJCBDD.2020.113855
+      - title: Developmental variability and stability in continuous-time host–parasitoid models
+        authors:
+          - D. Xu
+          - J. D. Reeve
+          - Xiuquan Wang
+          - M. Xiao
+        publisher: Theoretical Population Biology, 78(1), 1–11
+        releaseDate: 2010
+        url: https://doi.org/10.1016/j.tpb.2010.03.007
 
-  <div style="flex: 1 1 280px;">
+    Awards:
+      - title: 'Student mentoring: First Place Undergraduate Oral Presentation, Data Science Division'
+        awarder: Emerging Researchers National Conference in STEM
+        date: 2026
+        summary: 'Student award received by mentee Dania M. Zein for Embedding Robustness and Topology Preservation in RNA Velocity Analysis; not an award to Xiuquan Wang personally.'
+      - title: 'Student mentoring: First Place Undergraduate Poster Presentation, Computer Sciences and Information Management'
+        awarder: Emerging Researchers National Conference in STEM
+        date: 2025
+        summary: 'Student award received by mentee Dania M. Zein for research on COVID-19 PBMC scRNA-seq and RNA velocity; not an award to Xiuquan Wang personally.'
+      - title: 'Student mentoring: Accepted AAAI research paper'
+        awarder: Association for the Advancement of Artificial Intelligence
+        date: 2026
+        summary: 'Mentee Raven Lee: Transformer-Based Classification of Parkinson’s Disease from EEG Using BIDS-Formatted OpenNeuro Datasets. Acceptance is a publication outcome, not a personal award to Xiuquan Wang.'
+      - title: 'Student mentoring: First Place Oral Presentation, Mississippi IDeA Conference'
+        awarder: Mississippi IDeA Conference
+        date: 2025
+        summary: 'Mentee Raven Lee, as described in the supplied CV; verify award category against the certificate before publication.'
 
-    <h3>Xiuquan Wang, Ph.D.</h3>
+    Skills:
+      - name: Programming
+        keywords: 'Python, R, C/C++, MATLAB, Mathematica, Stata'
+      - name: Machine Learning and Deep Learning
+        keywords: 'PyTorch, TensorFlow, scikit-learn'
+      - name: Computational Platforms
+        keywords: 'High-performance computing, AWS, Google Cloud, Linux, Bash'
+      - name: Bioinformatics and Research Computing
+        keywords: 'Single-cell sequencing analysis, Bioconductor, Nextflow, Git/GitHub, parallel computing, reproducible workflows'
+      - name: Research Areas
+        keywords: 'Applied mathematics, RNA velocity, single-cell RNA-seq, nanopore sequencing, network analysis, topological data analysis, mathematical biology'
 
-    <p><strong>Principal Investigator</strong></p>
+    Interests:
+      - name: Research
+        keywords: 'Computational biology, biomedical data science, single-cell analysis, RNA velocity, nanopore sequencing, machine learning, network analysis'
 
-    <p>
-      H. M. Thompson Endowed Chair in Mathematics<br>
-      Associate Professor of Mathematics<br>
-      Chair, Department of Mathematics &amp; Computer Science<br>
-      Tougaloo College
-    </p>
 
-    <p>
-      <strong>Research Interests:</strong><br>
-      Applied Mathematics · Machine Learning · Computational Biology ·
-      RNA Velocity · Nanopore Sequencing · Network Analysis
-    </p>
-
-    <p>
-      <a href="{{ '/' | relative_url }}">Academic Profile</a>
-      &nbsp;|&nbsp;
-      <a href="mailto:xwang@tougaloo.edu">Email</a>
-    </p>
-
-  </div>
-
-</div>
-
-Dr. Wang leads research in mathematical and computational approaches
-for analyzing high-dimensional biological data. His research includes
-RNA velocity and single-cell transcriptomics, nanopore long-read
-sequencing, network analysis, and biomedical machine learning.
-
-His research program is supported by projects including the NSF
-HBCU-UP Research Initiation Award, NSF HBCU-UP Implementation Project,
-and MS-INBRE Project Development Grant.
-
----
-
-## Research Faculty
-
-Our research program brings together faculty researchers and
-collaborators working across mathematics, computer science,
-computational biology, and biomedical data science.
-
-*Individual faculty profiles will be added after the current research
-faculty roster is confirmed.*
-
----
-
-## Student Researchers
-
-Our group provides undergraduate students with opportunities to
-participate in computational research, develop technical skills,
-present at scientific conferences, and prepare for graduate study.
-
-### Selected Student Research Mentees
-
-<div style="margin: 24px 0; padding-bottom: 18px; border-bottom: 1px solid #ddd;">
-
-  <h3>Dania M. Zein</h3>
-
-  **Research Areas:** RNA Velocity, Single-Cell RNA Sequencing,
-  and Computational Biology
-
-  **Selected Research Achievements:**
-
-  - First Place, Undergraduate Oral Presentation, Data Science Division,
-    Emerging Researchers National Conference in STEM, 2026.
-  - First Place, Undergraduate Poster Presentation, Computer Sciences
-    and Information Management, Emerging Researchers National Conference
-    in STEM, 2025.
-
-</div>
-
-<div style="margin: 24px 0; padding-bottom: 18px; border-bottom: 1px solid #ddd;">
-
-  <h3>Raven Lee</h3>
-
-  **Research Areas:** Biomedical Machine Learning, EEG Data Analysis,
-  and Artificial Intelligence
-
-  **Selected Research Achievements:**
-
-  - Accepted research paper, "Transformer-Based Classification of
-    Parkinson's Disease from EEG Using BIDS-Formatted OpenNeuro
-    Datasets," AAAI, 2026.
-  - First Place Oral Presentation, Mississippi IDeA Conference, 2025,
-    as listed in Dr. Wang's CV.
-
-</div>
-
----
-
-## Research Areas
-
-### RNA Velocity and Cellular Dynamics
-
-Development of mathematical and computational methods for evaluating
-RNA velocity embeddings and studying cellular state transitions.
-
-### Nanopore Sequencing and Machine Learning
-
-Machine-learning approaches for extracting biological information
-from nanopore long-read sequencing data, including DNA methylation
-detection.
-
-### Large-Scale Biological Network Analysis
-
-Graph-based and topological approaches for investigating complex
-biological networks and single-cell transcriptomic datasets.
-
-### Biomedical Artificial Intelligence
-
-Machine-learning approaches for biomedical datasets, including EEG
-analysis and computational studies of neurological conditions.
-
----
-
-## Join Our Research Group
-
-Students interested in applied mathematics, computational biology,
-machine learning, and interdisciplinary research are welcome to
-contact Dr. Wang to learn about potential research opportunities.
-
-**Contact:** [xwang@tougaloo.edu](mailto:xwang@tougaloo.edu)
