@@ -30,7 +30,7 @@ Current research areas include:
 **Dr. Xiuquan Wang**  
 Department of Mathematics & Computer Science  
 Tougaloo College  
-Tougaloo, Mississippi, USA  
+Tougaloo, Mississippi, USA
 
 Email: xwang@tougaloo.edu
 
