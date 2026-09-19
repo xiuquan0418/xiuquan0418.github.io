@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research Projects
+title: Research
 permalink: /projects/
 description: Research in applied mathematics, computational biology, machine learning, and biomedical AI.
 nav: true
