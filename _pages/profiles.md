@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research Group
+title: People
 permalink: /people/
 description: Research faculty and student researchers working with Dr. Xiuquan Wang.
 nav: true

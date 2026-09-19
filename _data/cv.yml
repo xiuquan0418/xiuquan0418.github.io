@@ -1,189 +1,156 @@
-cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+---
+layout: page
+title: Research Group
+permalink: /people/
+description: Research faculty and student researchers working with Dr. Xiuquan Wang.
+nav: true
+nav_order: 6
+---
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+Our research group develops mathematical and computational approaches
+for analyzing complex biological data. Our work integrates applied
+mathematics, machine learning, computational biology, and biomedical
+data science, with an emphasis on interdisciplinary collaboration
+and undergraduate research.
 
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+---
 
-  sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+## Principal Investigator
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+<div style="display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start; margin: 24px 0;">
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+  <div style="flex: 0 0 180px; max-width: 100%;">
+    <img
+      src="{{ '/assets/img/prof_pic.jpeg' | relative_url }}"
+      alt="Dr. Xiuquan Wang"
+      style="width: 180px; max-width: 100%; border-radius: 8px;"
+    >
+  </div>
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+  <div style="flex: 1 1 280px;">
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+    <h3>Xiuquan Wang, Ph.D.</h3>
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+    <p><strong>Principal Investigator</strong></p>
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+    <p>
+      H. M. Thompson Endowed Chair in Mathematics<br>
+      Associate Professor of Mathematics<br>
+      Chair, Department of Mathematics &amp; Computer Science<br>
+      Tougaloo College
+    </p>
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+    <p>
+      <strong>Research Interests:</strong><br>
+      Applied Mathematics · Machine Learning · Computational Biology ·
+      RNA Velocity · Nanopore Sequencing · Network Analysis
+    </p>
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    <p>
+      <a href="{{ '/' | relative_url }}">Academic Profile</a>
+      &nbsp;|&nbsp;
+      <a href="mailto:xwang@tougaloo.edu">Email</a>
+    </p>
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+  </div>
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+</div>
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+Dr. Wang leads research in mathematical and computational approaches
+for analyzing high-dimensional biological data. His research includes
+RNA velocity and single-cell transcriptomics, nanopore long-read
+sequencing, network analysis, and biomedical machine learning.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+His research program is supported by projects including the NSF
+HBCU-UP Research Initiation Award, NSF HBCU-UP Implementation Project,
+and MS-INBRE Project Development Grant.
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+---
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+## Research Faculty
 
-      - name: English
-        summary: "Fluent"
+Our research program brings together faculty researchers and
+collaborators working across mathematics, computer science,
+computational biology, and biomedical data science.
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+*Individual faculty profiles will be added after the current research
+faculty roster is confirmed.*
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+---
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+## Student Researchers
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+Our group provides undergraduate students with opportunities to
+participate in computational research, develop technical skills,
+present at scientific conferences, and prepare for graduate study.
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+### Selected Student Research Mentees
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+<div style="margin: 24px 0; padding-bottom: 18px; border-bottom: 1px solid #ddd;">
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+  <h3>Dania M. Zein</h3>
+
+  **Research Areas:** RNA Velocity, Single-Cell RNA Sequencing,
+  and Computational Biology
+
+  **Selected Research Achievements:**
+
+  - First Place, Undergraduate Oral Presentation, Data Science Division,
+    Emerging Researchers National Conference in STEM, 2026.
+  - First Place, Undergraduate Poster Presentation, Computer Sciences
+    and Information Management, Emerging Researchers National Conference
+    in STEM, 2025.
+
+</div>
+
+<div style="margin: 24px 0; padding-bottom: 18px; border-bottom: 1px solid #ddd;">
+
+  <h3>Raven Lee</h3>
+
+  **Research Areas:** Biomedical Machine Learning, EEG Data Analysis,
+  and Artificial Intelligence
+
+  **Selected Research Achievements:**
+
+  - Accepted research paper, "Transformer-Based Classification of
+    Parkinson's Disease from EEG Using BIDS-Formatted OpenNeuro
+    Datasets," AAAI, 2026.
+  - First Place Oral Presentation, Mississippi IDeA Conference, 2025,
+    as listed in Dr. Wang's CV.
+
+</div>
+
+---
+
+## Research Areas
+
+### RNA Velocity and Cellular Dynamics
+
+Development of mathematical and computational methods for evaluating
+RNA velocity embeddings and studying cellular state transitions.
+
+### Nanopore Sequencing and Machine Learning
+
+Machine-learning approaches for extracting biological information
+from nanopore long-read sequencing data, including DNA methylation
+detection.
+
+### Large-Scale Biological Network Analysis
+
+Graph-based and topological approaches for investigating complex
+biological networks and single-cell transcriptomic datasets.
+
+### Biomedical Artificial Intelligence
+
+Machine-learning approaches for biomedical datasets, including EEG
+analysis and computational studies of neurological conditions.
+
+---
+
+## Join Our Research Group
+
+Students interested in applied mathematics, computational biology,
+machine learning, and interdisciplinary research are welcome to
+contact Dr. Wang to learn about potential research opportunities.
+
+**Contact:** [xwang@tougaloo.edu](mailto:xwang@tougaloo.edu)
