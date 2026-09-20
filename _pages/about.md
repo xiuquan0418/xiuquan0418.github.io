@@ -6,7 +6,7 @@ subtitle: Applied Mathematics | Computational Biology | Biomedical AI
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: Xiuquan.PNG
   image_circular: false
   more_info: >
     <p>Department of Mathematics & Computer Science</p>

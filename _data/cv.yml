@@ -189,48 +189,46 @@ cv:
         start_date: 2026-04-01
         end_date: 2027-03-31
 
-    Skills:
-      - name: Programming
-        icon: fa-solid fa-code
-        keywords: "Python, R, C/C++, MATLAB, Mathematica, Stata"
-
-      - name: Machine Learning Frameworks
-        icon: fa-solid fa-brain
-        keywords: "PyTorch, TensorFlow, scikit-learn"
-
-      - name: Bioinformatics
+    Research Interests:
+      - name: Computational Biology and Bioinformatics
         icon: fa-solid fa-dna
-        keywords: "Single-Cell Sequencing Analysis, Bioconductor, Nextflow"
+        keywords: "Single-Cell Transcriptomics, RNA Velocity, Nanopore Sequencing, Isoform-Level Analysis"
 
-      - name: Mathematical and Computational Methods
-        icon: fa-solid fa-square-root-variable
-        keywords: "Numerical Analysis, Topological Data Analysis, Network Analysis, Parallel Computing"
-
-      - name: Computing Platforms
-        icon: fa-solid fa-server
-        keywords: "High-Performance Computing, AWS, Google Cloud Platform, Linux, Bash, Git/GitHub"
-
-    Interests:
       - name: Applied Mathematics and Mathematical Biology
         icon: fa-solid fa-square-root-variable
         keywords: "Mathematical Modeling, Dynamical Systems, Topological Data Analysis"
 
-      - name: Computational Biology and Bioinformatics
-        icon: fa-solid fa-dna
-        keywords: "RNA Velocity, Single-Cell Transcriptomics, Nanopore Sequencing"
-
       - name: Machine Learning and Biomedical AI
         icon: fa-solid fa-brain
-        keywords: "Deep Learning, Biological Data Analysis, Biomedical Applications"
+        keywords: "Deep Learning, Biological Signal Analysis, Biomedical Data Science"
 
-      - name: Complex Biological Networks
+      - name: Biological Network Science
         icon: fa-solid fa-diagram-project
-        keywords: "Cell-Cell Similarity Networks, Network Topology, Cellular Dynamics"
+        keywords: "Complex Networks, Cell-Cell Similarity Networks, Graph-Based Analysis, Network Topology"
 
+    Technical Skills:
+      - name: Programming and Statistical Computing
+        icon: fa-solid fa-code
+        keywords: "Python, R, C/C++, MATLAB, Mathematica, Stata"
 
+      - name: Machine Learning and Deep Learning
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, TensorFlow, scikit-learn, Transformer Models"
+
+      - name: Bioinformatics and Genomic Data Analysis
+        icon: fa-solid fa-dna
+        keywords: "Single-Cell RNA-seq Analysis, Nanopore Data Analysis, Bioconductor, Nextflow"
+
+      - name: Mathematical and Computational Methods
+        icon: fa-solid fa-square-root-variable
+        keywords: "Numerical Methods, Topological Data Analysis, Graph Algorithms, Network Analysis"
+
+      - name: Scientific Computing Infrastructure
+        icon: fa-solid fa-server
+        keywords: "High-Performance Computing, Parallel Computing, Linux, Bash, Git/GitHub"
 
     Languages:
-      - name: China
+      - name: Chinese
         summary: "Native speaker"
 
       - name: English
