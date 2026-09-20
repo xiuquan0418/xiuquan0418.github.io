@@ -1,13 +1,13 @@
 ---
 layout: course
-title: Data Science Fundamentals
+title: Data Analysis and Visulaization
 description: This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.
-instructor: Prof. Data
-year: 2024
+instructor: Prof. Xiuquan Wang
+year: 2026
 term: Spring
-location: Science Building, Room 202
+location: Kincheleo Building, Room K105
 time: Mondays and Wednesdays, 2:00-3:30 PM
-course_id: data-science-fundamentals
+course_id: data-analysis
 schedule:
   - week: 1
     date: Feb 5

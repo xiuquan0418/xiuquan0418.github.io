@@ -189,7 +189,7 @@ cv:
         start_date: 2026-04-01
         end_date: 2027-03-31
 
-    Research Interests:
+    Interests:
       - name: Computational Biology and Bioinformatics
         icon: fa-solid fa-dna
         keywords: "Single-Cell Transcriptomics, RNA Velocity, Nanopore Sequencing, Isoform-Level Analysis"
@@ -206,7 +206,7 @@ cv:
         icon: fa-solid fa-diagram-project
         keywords: "Complex Networks, Cell-Cell Similarity Networks, Graph-Based Analysis, Network Topology"
 
-    Technical Skills:
+    Skills:
       - name: Programming and Statistical Computing
         icon: fa-solid fa-code
         keywords: "Python, R, C/C++, MATLAB, Mathematica, Stata"

@@ -16,23 +16,295 @@ My current research focuses on RNA velocity and cellular state transitions, nano
 
 ---
 
-## Research Areas
+<style>
+  .research-slideshow {
+    max-width: 1100px;
+    margin: 35px auto 45px;
+  }
 
-### RNA Velocity and Cellular Dynamics
+  .research-slideshow .slide-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+    background: #f5f5f5;
+  }
 
-Developing mathematical and computational approaches to study cellular state transitions using single-cell transcriptomic data. My work includes evaluating RNA velocity embeddings, investigating transition consistency, and integrating RNA velocity with isoform-level analysis.
+  .research-slideshow .research-slide {
+    display: none;
+    position: relative;
+  }
 
-### Nanopore Sequencing and Machine Learning
+  .research-slideshow .research-slide.active {
+    display: block;
+  }
 
-Developing machine-learning and mathematical methods to extract biological information from Oxford Nanopore sequencing data, including DNA methylation detection and analysis of long-read sequencing signals.
+  .research-slideshow .research-slide img {
+    display: block;
+    width: 100%;
+    height: 480px;
+    object-fit: contain;
+  }
 
-### Large-Scale Biological Network Analysis
+  .research-slideshow .slide-caption {
+    padding: 14px 20px;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+  }
 
-Applying mathematical and graph-based approaches to investigate large-scale biological networks, including cell-cell similarity networks, community structure, and network topology.
+  .research-slideshow .slide-arrow {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 2;
+  }
 
-### Biomedical Artificial Intelligence
+  .research-slideshow .slide-arrow:hover {
+    background: rgba(0, 0, 0, 0.75);
+  }
 
-Developing machine-learning and deep-learning methods for biomedical data analysis, including applications involving transcriptomics and electroencephalography (EEG).
+  .research-slideshow .prev-slide {
+    left: 16px;
+  }
+
+  .research-slideshow .next-slide {
+    right: 16px;
+  }
+
+  .research-slideshow .slide-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 18px 0;
+  }
+
+  .research-slideshow .slide-dot {
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: #aaa;
+    cursor: pointer;
+  }
+
+  .research-slideshow .slide-dot.active {
+    background: #333;
+  }
+
+  .research-slideshow .slide-credit {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+  }
+
+  @media (max-width: 768px) {
+    .research-slideshow .research-slide img {
+      height: 280px;
+    }
+
+    .research-slideshow .slide-caption {
+      font-size: 14px;
+    }
+  }
+</style>
+
+<div class="research-slideshow" id="research-slideshow"
+     role="region" aria-label="Research image slideshow"
+     aria-roledescription="carousel">
+
+  <div class="slide-container">
+
+    <!-- Slide 1: RNA Velocity -->
+    <div class="research-slide active">
+      <img
+        src="{{ '/assets/img/1.jpg' | relative_url }}"
+        alt="RNA velocity and cellular state transition visualization"
+      >
+      <div class="slide-caption">
+        RNA Velocity and Cellular Dynamics
+      </div>
+    </div>
+
+    <!-- Slide 2: Nanopore Sequencing -->
+    <div class="research-slide">
+      <img
+        src="{{ '/assets/img/2.jpg' | relative_url }}"
+        alt="Nanopore sequencing and machine learning research"
+        loading="lazy"
+      >
+      <div class="slide-caption">
+        Nanopore Sequencing and Machine Learning
+      </div>
+    </div>
+
+    <!-- Slide 3: Biological Networks -->
+    <div class="research-slide">
+      <img
+        src="{{ '/assets/img/3.jpg' | relative_url }}"
+        alt="Large-scale biological network visualization"
+        loading="lazy"
+      >
+      <div class="slide-caption">
+        Large-Scale Biological Network Analysis
+      </div>
+    </div>
+
+    <!-- Slide 4: Biomedical AI -->
+    <div class="research-slide">
+      <img
+        src="{{ '/assets/img/4.jpg' | relative_url }}"
+        alt="Biomedical artificial intelligence research visualization"
+        loading="lazy"
+      >
+      <div class="slide-caption">
+        Biomedical Artificial Intelligence
+      </div>
+    </div>
+
+    <!-- Navigation arrows -->
+    <button class="slide-arrow prev-slide"
+            type="button"
+            aria-label="Previous research image">
+      &#10094;
+    </button>
+
+    <button class="slide-arrow next-slide"
+            type="button"
+            aria-label="Next research image">
+      &#10095;
+    </button>
+
+  </div>
+
+  <!-- Navigation dots -->
+  <div class="slide-dots" aria-label="Choose a research image">
+    <button class="slide-dot active" type="button"
+            aria-label="Show image 1" aria-current="true"></button>
+    <button class="slide-dot" type="button"
+            aria-label="Show image 2"></button>
+    <button class="slide-dot" type="button"
+            aria-label="Show image 3"></button>
+    <button class="slide-dot" type="button"
+            aria-label="Show image 4"></button>
+  </div>
+
+  <p class="slide-credit">
+    Research figures: Xiuquan Wang and collaborators.
+    Update this credit to reflect the actual source of each image.
+  </p>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const carousel = document.getElementById("research-slideshow");
+
+  if (!carousel) return;
+
+  const slides = carousel.querySelectorAll(".research-slide");
+  const dots = carousel.querySelectorAll(".slide-dot");
+
+  const prev = carousel.querySelector(".prev-slide");
+  const next = carousel.querySelector(".next-slide");
+
+  let currentSlide = 0;
+  let timer = null;
+
+  const reducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+  ).matches;
+
+  function showSlide(index) {
+
+    currentSlide = (index + slides.length) % slides.length;
+
+    slides.forEach((slide, i) => {
+      slide.classList.toggle("active", i === currentSlide);
+      slide.setAttribute("aria-hidden", i !== currentSlide);
+    });
+
+    dots.forEach((dot, i) => {
+      dot.classList.toggle("active", i === currentSlide);
+
+      if (i === currentSlide) {
+        dot.setAttribute("aria-current", "true");
+      } else {
+        dot.removeAttribute("aria-current");
+      }
+    });
+  }
+
+  function stopAutoplay() {
+    if (timer !== null) {
+      clearInterval(timer);
+      timer = null;
+    }
+  }
+
+  function startAutoplay() {
+
+    stopAutoplay();
+
+    if (reducedMotion || slides.length < 2) return;
+
+    timer = setInterval(() => {
+      showSlide(currentSlide + 1);
+    }, 5000);
+  }
+
+  prev.addEventListener("click", () => {
+    showSlide(currentSlide - 1);
+    startAutoplay();
+  });
+
+  next.addEventListener("click", () => {
+    showSlide(currentSlide + 1);
+    startAutoplay();
+  });
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+      showSlide(index);
+      startAutoplay();
+    });
+  });
+
+  carousel.addEventListener("mouseenter", stopAutoplay);
+  carousel.addEventListener("mouseleave", startAutoplay);
+
+  carousel.addEventListener("focusin", stopAutoplay);
+
+  carousel.addEventListener("focusout", (event) => {
+    if (!carousel.contains(event.relatedTarget)) {
+      startAutoplay();
+    }
+  });
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+      stopAutoplay();
+    } else {
+      startAutoplay();
+    }
+  });
+
+  showSlide(0);
+  startAutoplay();
+
+});
+</script>
 
 ---
 
@@ -64,8 +336,6 @@ The following projects illustrate my ongoing research in computational biology, 
 
 ## Research Funding
 
-### Active Awards
-
 #### MS-INBRE Project Development Grant
 
 **Integrating RNA Velocity and Isoform-Level Analysis to Define Macrophage State Transitions in Non-Small Cell Lung Cancer**
@@ -82,14 +352,6 @@ The following projects illustrate my ongoing research in computational biology, 
 - **Total Project Award:** $2,245,846
 - **Project Period:** August 1, 2025 – July 31, 2030
 
-#### Nissan Foundation Award
-
-**Increasing the STEM Pipeline**
-
-- **Role:** Principal Investigator
-- **Project Period:** April 1, 2026 – March 31, 2027
-
-### Previous Award / Extension Status to Confirm
 
 #### NSF HBCU-UP Research Initiation Award (#2300445)
 
@@ -99,10 +361,13 @@ The following projects illustrate my ongoing research in computational biology, 
 - **Award Amount:** $299,882
 - **Original Project Period:** August 1, 2023 – July 31, 2026
 
+#### Nissan Foundation Award
+
+**Increasing the STEM Pipeline**
+
+- **Role:** Principal Investigator
+- **Project Period:** April 1, 2026 – March 31, 2027
 ---
 
-## Research Outcomes
-
-My research program supports scholarly publications, conference presentations, and undergraduate research opportunities.
 
 Explore my [Publications](/publications/) and [Research Group](/people/) for additional information.
