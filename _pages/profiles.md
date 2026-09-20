@@ -1,10 +1,10 @@
 ---
 layout: page
-title: People
+title: Research Group
 permalink: /people/
 description: Research faculty and student researchers working with Dr. Xiuquan Wang.
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
 Our research group develops mathematical and computational approaches
