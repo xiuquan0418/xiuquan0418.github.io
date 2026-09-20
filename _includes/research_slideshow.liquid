@@ -1,0 +1,114 @@
+{% comment %}
+  Reusable slideshow for Research, Research Group, and other pages.
+
+  Example:
+  {% include research_slideshow.liquid
+     slides=site.data.research_slides
+     folder="research"
+     label="Research project figures"
+  %}
+{% endcomment %}
+
+{% assign slideshow_slides = include.slides | default: site.data.research_slides %}
+{% assign slideshow_folder = include.folder | default: "research" %}
+{% assign slideshow_label = include.label | default: "Research figures" %}
+
+<link
+  rel="stylesheet"
+  href="{{ '/assets/css/research_slideshow.css' | relative_url }}"
+>
+
+{% if slideshow_slides and slideshow_slides.size > 0 %}
+
+<div
+  class="research-carousel"
+  data-research-carousel
+  role="region"
+  aria-label="{{ slideshow_label | escape }}"
+  aria-roledescription="carousel"
+>
+
+  <!-- Slideshow images -->
+  <div class="research-carousel-frame">
+
+    {% for slide in slideshow_slides %}
+
+      {% assign image_path = '/assets/img/' | append: slideshow_folder | append: '/' | append: slide.image %}
+
+      <figure
+        class="research-carousel-slide{% if forloop.first %} active{% endif %}"
+        {% unless forloop.first %}hidden{% endunless %}
+      >
+
+        <img
+          src="{{ image_path | relative_url }}"
+          alt="{{ slide.alt | escape }}"
+          {% unless forloop.first %}loading="lazy"{% endunless %}
+        >
+
+        {% if slide.title %}
+          <figcaption>
+            {{ slide.title | escape }}
+          </figcaption>
+        {% endif %}
+
+      </figure>
+
+    {% endfor %}
+
+    <!-- Previous and next arrows -->
+    {% if slideshow_slides.size > 1 %}
+
+      <button
+        class="research-carousel-arrow previous"
+        type="button"
+        aria-label="Previous image"
+      >
+        &#10094;
+      </button>
+
+      <button
+        class="research-carousel-arrow next"
+        type="button"
+        aria-label="Next image"
+      >
+        &#10095;
+      </button>
+
+    {% endif %}
+
+  </div>
+
+  <!-- Navigation dots -->
+  {% if slideshow_slides.size > 1 %}
+
+    <div
+      class="research-carousel-dots"
+      aria-label="Choose an image"
+    >
+
+      {% for slide in slideshow_slides %}
+
+        <button
+          class="research-carousel-dot{% if forloop.first %} active{% endif %}"
+          type="button"
+          aria-label="Show image {{ forloop.index }} of {{ slideshow_slides.size }}"
+          {% if forloop.first %}aria-current="true"{% endif %}
+        >
+        </button>
+
+      {% endfor %}
+
+    </div>
+
+  {% endif %}
+
+</div>
+
+{% endif %}
+
+<!-- Shared JavaScript for all slideshows -->
+<script
+  defer
+  src="{{ '/assets/js/research_slideshow.js' | relative_url }}"
+></script>
