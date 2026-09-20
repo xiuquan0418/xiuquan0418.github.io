@@ -1,0 +1,82 @@
+.research-carousel {
+  max-width: 1100px;
+  margin: 30px auto 45px;
+}
+
+.research-carousel-frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #f5f5f5;
+}
+
+.research-carousel-slide {
+  margin: 0;
+}
+
+.research-carousel-slide[hidden] {
+  display: none !important;
+}
+
+.research-carousel-slide img {
+  display: block;
+  width: 100%;
+  height: 480px;
+  object-fit: contain;
+}
+
+.research-carousel-slide figcaption {
+  padding: 12px 18px;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+.research-carousel-arrow {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.research-carousel-arrow.previous {
+  left: 15px;
+}
+
+.research-carousel-arrow.next {
+  right: 15px;
+}
+
+.research-carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px;
+}
+
+.research-carousel-dot {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #aaa;
+  cursor: pointer;
+}
+
+.research-carousel-dot.active {
+  background: #333;
+}
+
+@media (max-width: 768px) {
+  .research-carousel-slide img {
+    height: 280px;
+  }
+}
