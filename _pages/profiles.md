@@ -11,12 +11,12 @@ nav_order: 4
   /* Research Group page */
 
   .group-profile {
-    display: grid;
-    grid-template-columns: minmax(0, 1.4fr) minmax(220px, 1fr);
-    align-items: center;
-    gap: 40px;
-    margin: 30px 0 45px;
-  }
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 240px;
+  align-items: center;
+  gap: 30px;
+  margin: 25px 0 35px;
+}
 
   .group-profile-info {
     min-width: 0;
@@ -36,11 +36,11 @@ nav_order: 4
   .group-profile-photo img {
     display: block;
     width: 100%;
-    max-height: 420px;
-    object-fit: cover;
-    object-position: center top;
-    border-radius: 12px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+    height: auto;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
   }
 
   /* Four-column student grid */
@@ -99,11 +99,11 @@ nav_order: 4
   @media (max-width: 650px) {
     .group-profile {
       grid-template-columns: 1fr;
-      gap: 22px;
+      gap: 18px;
     }
 
     .group-profile-photo {
-      max-width: 340px;
+      max-width: 220px;
     }
 
     .student-grid {
@@ -189,7 +189,7 @@ biology, machine learning, and biomedical artificial intelligence.
   <div class="group-profile-photo">
 
     <img
-      src="{{ '/assets/img/Miraj.jpg' | relative_url }}"
+      src="{{ '/assets/img/Miraj.JPG' | relative_url }}"
       alt="Dr. Miraj Samarakkody"
       loading="lazy"
     >
