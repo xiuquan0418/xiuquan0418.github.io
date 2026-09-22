@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: Team
@@ -5,12 +6,12 @@ permalink: /people/
 description: Research faculty and student researchers working with Dr. Xiuquan Wang.
 nav: true
 nav_order: 4
-
+---
 
 <style>
-  /* Research Group page */
+/* Research Group page */
 
-  .group-profile {
+.group-profile {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 240px;
   align-items: center;
@@ -18,99 +19,95 @@ nav_order: 4
   margin: 25px 0 35px;
 }
 
-  .group-profile-info {
-    min-width: 0;
+.group-profile-info {
+  min-width: 0;
+}
+
+.group-profile-info h3 {
+  margin-top: 0;
+  margin-bottom: 14px;
+  font-size: 1.6rem;
+}
+
+.group-profile-info p {
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+
+.group-profile-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+}
+
+.student-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+  margin: 30px 0 45px;
+}
+
+.student-card {
+  min-width: 0;
+}
+
+.student-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 10px;
+  margin-bottom: 14px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
+}
+
+.student-card h3 {
+  font-size: 1.12rem;
+  line-height: 1.35;
+  margin: 0 0 8px;
+}
+
+.student-card p {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin: 0 0 8px;
+  overflow-wrap: anywhere;
+}
+
+.student-role {
+  font-weight: 600;
+}
+
+.student-research {
+  margin-top: 12px;
+}
+
+@media (max-width: 1000px) {
+  .student-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .group-profile {
+    grid-template-columns: 1fr;
+    gap: 18px;
   }
 
-  .group-profile-info h3 {
-    margin-top: 0;
-    margin-bottom: 14px;
-    font-size: 1.6rem;
+  .group-profile-photo {
+    max-width: 220px;
   }
-
-  .group-profile-info p {
-    margin-bottom: 12px;
-    line-height: 1.7;
-  }
-
-  .group-profile-photo img {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-height: 300px;
-    object-fit: contain;
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
-  }
-
-  /* Four-column student grid */
 
   .student-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 24px;
-    margin: 30px 0 45px;
+    grid-template-columns: 1fr;
+    max-width: 400px;
   }
-
-  .student-card {
-    min-width: 0;
-  }
-
-  .student-card img {
-    display: block;
-    width: 100%;
-    aspect-ratio: 3 / 4;
-    object-fit: cover;
-    object-position: center top;
-    border-radius: 10px;
-    margin-bottom: 14px;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
-  }
-
-  .student-card h3 {
-    font-size: 1.12rem;
-    line-height: 1.35;
-    margin: 0 0 8px;
-  }
-
-  .student-card p {
-    font-size: 0.92rem;
-    line-height: 1.5;
-    margin: 0 0 8px;
-    overflow-wrap: anywhere;
-  }
-
-  .student-role {
-    font-weight: 600;
-  }
-
-  .student-research {
-    margin-top: 12px;
-  }
-
-  /* Responsive layout */
-
-  @media (max-width: 1000px) {
-    .student-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-
-  @media (max-width: 650px) {
-    .group-profile {
-      grid-template-columns: 1fr;
-      gap: 18px;
-    }
-
-    .group-profile-photo {
-      max-width: 220px;
-    }
-
-    .student-grid {
-      grid-template-columns: 1fr;
-      max-width: 400px;
-    }
-  }
+}
 </style>
 
 Our research group develops mathematical and computational approaches
