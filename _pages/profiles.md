@@ -5,7 +5,7 @@ permalink: /people/
 description: Research faculty and student researchers working with Dr. Xiuquan Wang.
 nav: true
 nav_order: 4
----
+
 
 <style>
   /* Research Group page */
@@ -117,7 +117,7 @@ Our research group develops mathematical and computational approaches
 for analyzing complex biological data, with a focus on computational
 biology, machine learning, and biomedical artificial intelligence.
 
----
+
 
 ## Principal Investigator
 
@@ -159,7 +159,7 @@ biology, machine learning, and biomedical artificial intelligence.
 
 </div>
 
----
+
 
 ## Research Faculty
 
@@ -198,7 +198,7 @@ biology, machine learning, and biomedical artificial intelligence.
 
 </div>
 
----
+
 
 ## Student Researchers
 
@@ -272,3 +272,18 @@ biology, machine learning, and biomedical artificial intelligence.
 ## Group Highlights
 
 {% include research_slideshow.liquid slides=site.data.group_slides folder="group" label="Research Group photographs" %}
+
+<!-- {% assign group_photos = site.static_files | where_exp: "file", "file.path contains '/assets/img/group/'" %}
+
+<div class="row">
+  {% for photo in group_photos %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+      <img
+        src="{{ photo.path | relative_url }}"
+        alt="Research Group"
+        class="img-fluid rounded z-depth-1"
+        loading="lazy"
+      >
+    </div>
+  {% endfor %}
+</div> -->

@@ -32,9 +32,10 @@ I am **Xiuquan Wang, Ph.D.**, an Associate Professor of Mathematics, the **H. M.
 
 My research lies at the intersection of **applied mathematics, computational biology, machine learning, and biomedical data science**. I develop mathematical and computational approaches to extract biological information from high-dimensional and large-scale datasets, with an emphasis on interpretable methods and biologically meaningful analysis.
 
-My current research focuses on three interconnected areas:
+My current researches:
 
-- **RNA velocity and cellular dynamics:** Developing computational methods to evaluate RNA velocity embeddings, characterize cell-state transitions, and investigate cellular dynamics.
+- **Macrophage State Transitions and Transcript Isoform Dynamics in Lung Cancer:** 
+We are developing an integrated computational framework that combines RNA velocity, single-cell trajectory analysis, and long-read RNA sequencing to investigate macrophage plasticity in non-small cell lung cancer. By connecting inferred cellular state transitions with transcript isoform variation, this project aims to identify molecular programs associated with tumor-related macrophage states and prioritize candidate isoforms for future mechanistic investigation. Preliminary analyses of 34,420 monocyte/macrophage-lineage cells reveal substantial cellular heterogeneity and tumor-associated differences in macrophage composition, providing a foundation for the proposed integration of cellular dynamics and transcript-level regulation.
 - **Nanopore sequencing and machine learning:** Developing mathematical and machine-learning approaches to extract biological information from long-read sequencing data.
 - **Large-scale biological network analysis:** Applying graph-based methods to investigate cellular relationships, network structure, and biological heterogeneity.
 
