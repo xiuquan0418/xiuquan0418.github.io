@@ -16,7 +16,7 @@ My current research focuses on RNA velocity and cellular state transitions, nano
 
 ---
 
-{% include research_slideshow.liquid slides=site.data.research_slides folder="research" label="Research project figures" %}
+{% include research_slideshow.liquid slides=site.data.research_slides folder="projects" label="Research project figures" %}
 
 ---
 

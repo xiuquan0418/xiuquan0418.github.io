@@ -1,15 +1,8 @@
-- image: 1.jpg
-  title: RNA Velocity and Cellular Dynamics
-  alt: Visualization of RNA velocity and cellular state transitions
+- image: nsclc-workflow.png
+  caption: "NSCLC research workflow"
 
-- image: 2.jpg
-  title: Nanopore Sequencing and Machine Learning
-  alt: Research visualization related to nanopore sequencing
+- image: nsclc-umap.png
+  caption: "Macrophage state analysis"
 
-- image: 3.jpg
-  title: Large-Scale Biological Network Analysis
-  alt: Visualization of a biological network
-
-- image: 4.jpg
-  title: Biomedical Artificial Intelligence
-  alt: Visualization of a biomedical artificial intelligence project
+- image: nsclc-markers.png
+  caption: "Macrophage marker expression"
