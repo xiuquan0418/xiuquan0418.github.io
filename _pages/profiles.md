@@ -214,7 +214,7 @@ biology, machine learning, and biomedical artificial intelligence.
 
     {% if student.image %}
 
-      {% assign student_image = '/assets/img/' | append: student.image %}
+      {% assign student_image = '/assets/img/group/' | append: student.image %}
 
       <img
         src="{{ student_image | relative_url }}"
