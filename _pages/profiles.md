@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: Team
@@ -264,13 +263,7 @@ biology, machine learning, and biomedical artificial intelligence.
 
 ---
 
-## Group Highlights
-
 
 ## Group Highlights
 
-{% include research_slideshow.liquid
-   slides=site.data.group_slides
-   folder="group"
-   label="Research Group photographs"
-%}
+{% include research_slideshow.liquid slides=site.data.group_slides folder="group" label="Research Group photographs" %}
