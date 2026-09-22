@@ -273,17 +273,3 @@ biology, machine learning, and biomedical artificial intelligence.
 
 {% include research_slideshow.liquid slides=site.data.group_slides folder="group" label="Research Group photographs" %}
 
-{% comment %}
-
-{% assign group_photos = site.static_files | where_exp: "file", "file.path contains '/assets/img/group/'" %}
-
-<div class="row">
-  {% for photo in group_photos %}
-    <div class="col-sm-4 mt-3 mt-md-0">
-      <img src="{{ photo.path | relative_url }}"
-           class="img-fluid rounded z-depth-1">
-    </div>
-  {% endfor %}
-</div>
-
-{% endcomment %}
