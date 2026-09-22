@@ -205,12 +205,11 @@ biology, machine learning, and biomedical artificial intelligence.
 
 <div class="student-grid">
 
-  {% for student in students %}
+{% for student in students %}
 
   <div class="student-card">
 
     {% if student.image %}
-
       {% assign student_image = '/assets/img/group/' | append: student.image %}
 
       <img
@@ -218,7 +217,6 @@ biology, machine learning, and biomedical artificial intelligence.
         alt="{{ student.name | escape }}"
         loading="lazy"
       >
-
     {% endif %}
 
     <h3>{{ student.name | escape }}</h3>
@@ -246,7 +244,7 @@ biology, machine learning, and biomedical artificial intelligence.
 
     {% if student.profile_url %}
       <p>
-        <a href="{{ student.profile_url | escape }}">
+        <a href="{{ student.profile_url | relative_url }}">
           View Profile →
         </a>
       </p>
@@ -254,7 +252,7 @@ biology, machine learning, and biomedical artificial intelligence.
 
   </div>
 
-  {% endfor %}
+{% endfor %}
 
 </div>
 
@@ -268,5 +266,11 @@ biology, machine learning, and biomedical artificial intelligence.
 
 ## Group Highlights
 
-{% include research_slideshow.liquid slides=site.data.group_slides folder="group" label="Research Group photographs" %}
 
+## Group Highlights
+
+{% include research_slideshow.liquid
+   slides=site.data.group_slides
+   folder="group"
+   label="Research Group photographs"
+%}
