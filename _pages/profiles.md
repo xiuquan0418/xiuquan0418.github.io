@@ -267,3 +267,67 @@ biology, machine learning, and biomedical artificial intelligence.
 ## Group Highlights
 
 {% include research_slideshow.liquid slides=site.data.group_slides folder="group" label="Research Group photographs" %}
+
+
+## Alumni
+
+{% assign alumni = site.data.group_alumni %}
+
+{% if alumni and alumni.size > 0 %}
+
+<div class="student-grid">
+
+{% for person in alumni %}
+
+  <div class="student-card">
+
+    {% if person.image %}
+      {% assign alumni_image = '/assets/img/group/' | append: person.image %}
+      <img
+        src="{{ alumni_image | relative_url }}"
+        alt="{{ person.name | escape }}"
+        loading="lazy"
+      >
+    {% endif %}
+
+    <h3>{{ person.name | escape }}</h3>
+
+    {% if person.degree %}
+      <p class="student-role">
+        {{ person.degree | escape }}
+      </p>
+    {% endif %}
+
+    {% if person.year %}
+      <p>{{ person.year | escape }}</p>
+    {% endif %}
+
+    {% if person.research %}
+      <p class="student-research">
+        <strong>Research:</strong><br>
+        {{ person.research | escape }}
+      </p>
+    {% endif %}
+
+    {% if person.current_position %}
+      <p>
+        <strong>Current Position:</strong><br>
+        {{ person.current_position | escape }}
+      </p>
+    {% endif %}
+
+    {% if person.profile_url %}
+      <p>
+        <a href="{{ person.profile_url | relative_url }}">
+          View Profile →
+        </a>
+      </p>
+    {% endif %}
+
+  </div>
+
+{% endfor %}
+
+</div>
+
+{% endif %}

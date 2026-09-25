@@ -1,0 +1,13 @@
+- name: Raven Lee
+  image: Raven_Lee.jpg
+  degree: B.S. Mathematics
+  year: Class of 2026
+  research: EEG-based machine learning and biomedical artificial intelligence
+  current_position: M.S. Data Science, Meharry Medical College
+
+- name: Dwight Ross
+  image: Dwight_Ross.jpeg
+  degree: B.S. Mathematics
+  year: Class of 2024
+  research: Biomedical Data Analysis
+  current_position: M.S. Biostatistics, Brown University
