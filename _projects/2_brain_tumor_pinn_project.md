@@ -20,13 +20,13 @@ The central question is: **What tumor-growth information can actually be identif
 
 For the Fisher–KPP proliferation–invasion model, a single snapshot cannot uniquely determine the diffusion coefficient \(D\), proliferation rate \(\rho\), and lesion age \(T\) separately. Instead, the image supports two identifiable combinations:
 
-\[
+$$
 \lambda = \sqrt{D/\rho},
 \qquad
 \tau = 2\rho T,
-\]
+$$
 
-where \(\lambda\) represents an infiltration length scale and \(\tau\) a dimensionless tumor age.
+where $\lambda$ represents an infiltration length scale and \(\tau\) a dimensionless tumor age.
 
 The project therefore focuses on estimating **physically identifiable quantities**, rather than attempting to recover parameters that the available data cannot uniquely support.
 
