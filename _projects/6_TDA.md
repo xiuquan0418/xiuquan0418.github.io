@@ -2,7 +2,7 @@
 layout: page
 title: Topology- and Graph-Guided AI for Cardiometabolic Phenotyping
 description: Integrating topological data analysis, patient similarity networks, and graph neural networks to discover cardiometabolic phenotypes and predict longitudinal disease risk in All of Us.
-importance: 5
+importance: 6
 category: work
 related_publications: true
 ---
