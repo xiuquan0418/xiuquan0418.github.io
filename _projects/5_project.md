@@ -1,80 +1,113 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Topology- and Graph-Guided AI for Cardiometabolic Phenotyping
+description: Integrating topological data analysis, patient similarity networks, and graph neural networks to discover cardiometabolic phenotypes and predict longitudinal disease risk in All of Us.
+importance: 5
+category: work
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Project Title:** Topology-Informed Graph Neural Networks for Discovery and Longitudinal Prediction of Cardiometabolic Phenotypes in the All of Us Research Program
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Research Areas:** Biomedical Data Science · Topological Data Analysis · Graph Neural Networks · Precision Medicine · Cardiometabolic Disease · Explainable AI
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Cardiometabolic diseases such as obesity, hypertension, type 2 diabetes, chronic kidney disease, and cardiovascular disease are commonly treated as distinct diagnostic categories. In practice, however, patients with the same diagnosis can differ substantially in metabolic status, renal function, cardiovascular risk, treatment response, and disease progression.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+This project develops a **topology- and graph-guided artificial intelligence framework** to identify hidden cardiometabolic phenotypes and evaluate their clinical relevance using longitudinal data from the **All of Us Research Program**.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+The central hypothesis is that high-dimensional clinical data contain nonlinear population structure that is not fully captured by conventional diagnostic labels or standard clustering methods. By integrating topological data analysis, patient similarity networks, graph neural networks, and explainable machine learning, we aim to discover reproducible patient phenotypes and determine whether they improve prediction of future cardiometabolic outcomes.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+---
 
-{% raw %}
+## Research Objectives
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### 1. Discover robust cardiometabolic phenotypes using topological data analysis
 
-{% endraw %}
+We will integrate clinical, laboratory, physical measurement, behavioral, and medication information to construct multidimensional cardiometabolic profiles.
+
+Topological data analysis methods, including **Mapper** and **persistent homology**, will be used to identify stable population structure across multiple scales. Bootstrap resampling and parameter-sensitivity analyses will evaluate the reproducibility of discovered phenotypes.
+
+The goal is to identify clinically meaningful subgroups that may cross traditional disease boundaries, such as metabolically healthier obesity, insulin-resistant phenotypes, renal-metabolic phenotypes, and hypertension-dominant profiles.
+
+### 2. Construct and analyze patient similarity networks
+
+Participants will be represented as nodes in a large patient similarity graph, with edges connecting individuals who have similar cardiometabolic profiles.
+
+Graph-based analyses will be used to identify:
+
+- patient communities;
+- hubs and locally dense regions;
+- boundary or bridge participants;
+- community-specific clinical characteristics;
+- concordance between graph communities and topology-defined phenotypes.
+
+This network representation provides a systems-level view of population heterogeneity and supports analysis of relationships that may be difficult to capture with conventional tabular models.
+
+### 3. Develop topology-informed graph neural networks for longitudinal risk prediction
+
+We will combine patient-level clinical variables, topological descriptors, and patient-network structure within graph neural network models such as **GraphSAGE** and graph attention networks.
+
+The models will be evaluated for prediction of longitudinal outcomes such as:
+
+- incident type 2 diabetes;
+- chronic kidney disease;
+- cardiovascular disease.
+
+Performance will be compared with conventional statistical and machine-learning approaches, including logistic regression, Cox regression, random forests, gradient boosting, and multilayer neural networks.
+
+Explainable AI methods will be used to identify the clinical features, network neighborhoods, and topological characteristics that contribute most strongly to predicted risk.
+
+---
+
+## Methodological Framework
+
+The project integrates complementary approaches:
+
+**Topological discovery:** Mapper, persistent homology, multiscale stability analysis.
+
+**Network analysis:** k-nearest-neighbor patient graphs, community detection, centrality, participation coefficients, and bridge-node analysis.
+
+**Graph-based AI:** GraphSAGE, graph attention networks, and topology-informed node representations.
+
+**Longitudinal modeling:** incident-outcome prediction and time-to-event analysis.
+
+**Interpretability:** SHAP, graph explanation methods, feature ablation, and subgroup-specific interpretation.
+
+**Validation:** train/validation/test separation, bootstrap stability, graph-sensitivity analysis, calibration assessment, and subgroup performance evaluation.
+
+---
+
+## Research Significance
+
+The project extends precision-medicine analysis beyond conventional disease labels by asking whether patients can be organized according to reproducible, data-driven cardiometabolic structure.
+
+Rather than using topology, networks, and machine learning as separate tools, the framework connects them sequentially:
+
+**topology discovers hidden structure → graphs represent patient relationships → graph neural networks use those relationships for prediction → explainable AI identifies the clinical features driving risk.**
+
+This approach may provide a more interpretable and biologically meaningful framework for studying heterogeneous cardiometabolic disease and for identifying patient groups with distinct trajectories of disease progression.
+
+---
+
+## Future Extensions
+
+The framework can be extended by incorporating genomic and wearable data available through All of Us.
+
+Genomic analyses may be used to evaluate whether topology-defined phenotypes differ in inherited cardiometabolic risk, while wearable measurements may provide dynamic information on physical activity, heart rate, and sleep.
+
+A longer-term direction is to construct **temporal patient-state graphs** that model transitions among cardiometabolic phenotypes over time, connecting population-level disease progression with broader research on biological state transitions.
+
+---
+
+## Project Information
+
+**Principal Investigator:** Xiuquan Wang, Ph.D.  
+**Institution:** Tougaloo College  
+**Data Resource:** All of Us Research Program  
+**Research Focus:** Topological Data Analysis, Patient Similarity Networks, Graph Neural Networks, and Cardiometabolic Risk Prediction
+
+---
+
+*This project is a methodological research framework for discovering and validating cardiometabolic phenotypes using large-scale longitudinal biomedical data. It is intended for research and hypothesis generation rather than clinical diagnosis.*
