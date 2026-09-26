@@ -2,7 +2,7 @@
 layout: page
 title: Mechanism-Aware Brain Tumor MRI Analysis
 description: Physics-informed neural networks for identifiable tumor-growth inference and mechanism-aware MRI classification.
-img: assets/img/2.jpg
+img: assets/img/7.jpg
 importance: 2
 category: work
 related_publications: true
