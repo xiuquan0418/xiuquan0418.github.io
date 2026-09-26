@@ -2,6 +2,7 @@
 layout: page
 title: Mega-Scale Cell-Cell Similarity Network Analysis
 description: Scalable graph analysis of more than one million embryonic mouse brain cells to identify developmental modules and transition-associated cells.
+img: assets/img/4.jpg
 importance: 4
 category: work
 related_publications: true

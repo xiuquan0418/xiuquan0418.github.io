@@ -2,6 +2,7 @@
 layout: page
 title: Nanopore Long-Read Sequencing and Computational Genomics
 description: Machine learning and mathematical approaches for RNA velocity and DNA methylation analysis using Nanopore long-read sequencing.
+img: assets/img/5.jpg
 importance: 5
 category: work
 related_publications: true

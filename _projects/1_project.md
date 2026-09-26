@@ -2,7 +2,7 @@
 layout: page
 title: Macrophage State Transitions in Lung Cancer
 description: Integrating RNA velocity and long-read single-cell transcriptomics to investigate macrophage plasticity in non-small cell lung cancer.
-img: assets/img/projects/nsclc-workflow.png
+img: assets/img/1.jpg
 importance: 1
 category: work
 related_publications: true

@@ -2,6 +2,7 @@
 layout: page
 title: BioFilter-EVTS
 description: A biology-guided framework for evaluating and refining RNA velocity visualizations using transition consistency, pseudotime, lineage structure, and marker-gene progression.
+img: assets/img/3.jpg
 importance: 3
 category: work
 related_publications: true
