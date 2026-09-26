@@ -18,7 +18,7 @@ Deep-learning models can classify brain tumor MRI images with high reported accu
 
 The central question is: **What tumor-growth information can actually be identified from a single MRI snapshot?**
 
-For the Fisher–KPP proliferation–invasion model, a single snapshot cannot uniquely determine the diffusion coefficient \(D\), proliferation rate \(\rho\), and lesion age \(T\) separately. Instead, the image supports two identifiable combinations:
+For the Fisher–KPP proliferation–invasion model, a single snapshot cannot uniquely determine the diffusion coefficient $D$, proliferation rate $\rho$, and lesion age $T$ separately. Instead, the image supports two identifiable combinations:
 
 $$
 \lambda = \sqrt{D/\rho},
@@ -26,7 +26,7 @@ $$
 \tau = 2\rho T,
 $$
 
-where $\lambda$ represents an infiltration length scale and \(\tau\) a dimensionless tumor age.
+where $\lambda$ represents an infiltration length scale and $\tau$ a dimensionless tumor age.
 
 The project therefore focuses on estimating **physically identifiable quantities**, rather than attempting to recover parameters that the available data cannot uniquely support.
 
@@ -52,7 +52,7 @@ The main dataset contains **7,023 T1-weighted MRI images** across four classes: 
 
 We analyze the Fisher–KPP tumor-growth model to determine which parameter combinations can be uniquely inferred from one image.
 
-The key result is that the forward model depends on \(D\), \(\rho\), and \(T\) through the dimensionless combinations \(\lambda\) and \(\tau\). Thus, a single snapshot cannot separate the three original parameters.
+The key result is that the forward model depends on $D$, $\rho$, and $T$ through the dimensionless combinations $\lambda$ and $\tau$. Thus, a single snapshot cannot separate the three original parameters.
 
 This identifiability-first perspective provides a mathematically defensible target for inverse modeling and avoids over-interpreting information that is not present in the data.
 
@@ -62,7 +62,7 @@ A conventional inverse PINN must be optimized separately for each patient or ima
 
 To address this limitation, the project develops an **amortized conditional PINN** with two coupled components:
 
-- an image encoder that predicts physics parameters such as \(\lambda\), \(\tau\), tumor seed location, and mass-effect amplitude;
+- an image encoder that predicts physics parameters such as $\lambda$, $\tau$, tumor seed location, and mass-effect amplitude;
 - a conditional neural field that enforces the governing PDE through the loss function.
 
 The model is first calibrated on synthetic data where ground-truth parameters are known, and only then applied to real MRI images.
@@ -73,8 +73,8 @@ Gliomas typically exhibit diffuse infiltration, while meningiomas and pituitary 
 
 The project uses this mechanistic distinction directly:
 
-- **infiltrative growth:** larger \(\lambda\), smaller mass-effect amplitude;
-- **displacive growth:** \(\lambda \approx 0\), larger mass-effect amplitude;
+- **infiltrative growth:** larger $\lambda$, smaller mass-effect amplitude;
+- **displacive growth:** $\lambda \approx 0$, larger mass-effect amplitude;
 - **no tumor:** both near zero.
 
 Classification is framed as **model selection between competing physical mechanisms**, supplemented by anatomical location when physics alone cannot separate tumor types.
@@ -99,7 +99,7 @@ This analysis is designed to distinguish genuine tumor-related learning from sho
 
 A major principle of the project is **synthetic-first validation**.
 
-Three-dimensional tumor-growth simulations are generated with known parameters and then converted into T1-like images through a parameterized observation model. These simulations provide the exact benchmark needed to test whether the inverse model can recover \(\lambda\) and \(\tau\).
+Three-dimensional tumor-growth simulations are generated with known parameters and then converted into T1-like images through a parameterized observation model. These simulations provide the exact benchmark needed to test whether the inverse model can recover $\lambda$ and $\tau$.
 
 The synthetic cohort is also used to quantify **2D slice bias**, since a 2D MRI slice represents only part of an underlying 3D process. This allows the project to estimate when single-slice inversion is trustworthy and when it should be rejected or corrected.
 
