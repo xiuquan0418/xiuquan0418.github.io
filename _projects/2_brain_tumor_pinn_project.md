@@ -147,11 +147,7 @@ These activities provide hands-on experience with numerical modeling, machine le
 ---
 
 ## Project Information
-
-**Principal Investigator:** Miraj Samarakkody, Ph.D.  
-**Institution:** Tougaloo College  
-**Program:** Computational Mathematics / Mathematical Biology  
-**Project Duration:** 6 months  
+ 
 **Software Deliverable:** PhysMRI  
 **Primary Data Resource:** Kaggle Brain Tumor MRI Dataset
 
