@@ -53,7 +53,7 @@ The following projects illustrate my ongoing research in computational biology, 
 **Integrating RNA Velocity and Isoform-Level Analysis to Define Macrophage State Transitions in Non-Small Cell Lung Cancer**
 
 - **Role:** Principal Investigator
-- **Award Amount:** $200,000
+- **Award Amount:** $292,000
 - **Project Period:** September 1, 2026 – August 31, 2028
 
 #### NSF HBCU-UP Implementation Project (#2510537)
@@ -78,6 +78,7 @@ The following projects illustrate my ongoing research in computational biology, 
 **Increasing the STEM Pipeline**
 
 - **Role:** Principal Investigator
+- **Award Amount:** $45,000
 - **Project Period:** April 1, 2026 – March 31, 2027
 
 ---
