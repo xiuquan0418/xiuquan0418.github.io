@@ -4,11 +4,7 @@ cv:
   email: xwang@tougaloo.edu
   location: Tougaloo, MS
   image: ""
-  summary: Applied mathematician and data scientist specializing in machine learning,
-    bioinformatics, RNA velocity, single-cell and long-read sequencing analysis,
-    network analysis, and topological data analysis. Department chair and
-    externally funded researcher with extensive undergraduate teaching,
-    curriculum development, and research mentoring experience.
+  summary: Applied mathematician and data scientist with interdisciplinary expertise in data-driven mathematical modeling, artificial intelligence and machine learning, computational biology, education, and academic leadership.
 
   social_networks:
     - network: GitHub
@@ -145,7 +141,7 @@ cv:
           in non-small cell lung cancer.
         highlights:
           - "Role: Principal Investigator"
-          - "Funding: $200,000"
+          - "Funding: $292,000"
           - "Funding Agency: NIH/MS-INBRE"
         start_date: 2026-09-01
         end_date: 2028-08-31
