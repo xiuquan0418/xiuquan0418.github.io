@@ -1,8 +1,8 @@
-- image: nsclc-workflow.png
+- image: nsclc-analysis-workflow.png
   caption: "NSCLC research workflow"
 
-- image: nsclc-umap.png
-  caption: "Macrophage state analysis"
+- image: MRIPINN-mechanical_pinn_workflow.png
+  caption: "Physics-informed inverse modeling of tumor mass effect."
 
-- image: nsclc-markers.png
-  caption: "Macrophage marker expression"
+- image: MRIPINN-gbm-multiscale-workflow.png
+  caption: "Multiscale workflow"
