@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-I am pleased to announce that our research project, **"Integrating RNA Velocity and Isoform-Level Analysis to Define Macrophage State Transitions in Non-Small Cell Lung Cancer,"** has received a $200,000 Project Development Grant from the Mississippi IDeA Network of Biomedical Research Excellence (MS-INBRE).
+I am pleased to announce that our research project, **"Integrating RNA Velocity and Isoform-Level Analysis to Define Macrophage State Transitions in Non-Small Cell Lung Cancer,"** has received a $292,000 Project Development Grant from the Mississippi IDeA Network of Biomedical Research Excellence (MS-INBRE).
 
 The project runs from September 1, 2026, through August 31, 2028.
 
@@ -18,7 +18,7 @@ The research aims to develop computational approaches for understanding cellular
 
 ## Project Information
 
-- **Funding:** $200,000
+- **Funding:** $292,000
 - **Funding Program:** MS-INBRE Project Development Grant
 - **Project Period:** September 1, 2026 – August 31, 2028
 - **Role:** Principal Investigator

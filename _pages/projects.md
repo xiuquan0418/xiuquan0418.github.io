@@ -14,11 +14,9 @@ My research lies at the intersection of **applied mathematics, computational bio
 
 My current research focuses on RNA velocity and cellular state transitions, nanopore long-read sequencing, large-scale biological network analysis, and machine learning for biomedical applications.
 
----
 
 {% include research_slideshow.liquid slides=site.data.research_slides folder="projects" label="Research project figures" %}
 
----
 
 ## Research Projects
 
@@ -44,7 +42,6 @@ The following projects illustrate my ongoing research in computational biology, 
   {% endif %}
 </div>
 
----
 
 ## Research Funding
 
@@ -81,7 +78,6 @@ The following projects illustrate my ongoing research in computational biology, 
 - **Award Amount:** $45,000
 - **Project Period:** April 1, 2026 – March 31, 2027
 
----
 
 
 Explore my [Publications](/publications/) and [Research Group](/people/) for additional information.
